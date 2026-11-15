@@ -1,0 +1,109 @@
+{
+  "entries": {
+    "lne_wizards:frost_evoker": {
+      "attributes": {
+        "spell_power:frost": {
+          "base": -2.5
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "wizards:wand_frost",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "wizards"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    },
+    "lne_wizards:fire_evoker": {
+      "attributes": {
+        "spell_power:fire": {
+          "base": -2.5
+        },
+        "minecraft:generic.attack_knockback": {
+          "base": 0.0
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "wizards:wand_fire",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "wizards"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    },
+    "lne_wizards:arcane_evoker": {
+      "attributes": {
+        "spell_power:arcane": {
+          "base": -2.5
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "wizards:wand_arcane",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "wizards"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    },
+    "lne_wizards:water_evoker": {
+      "attributes": {
+        "spell_power:water": {
+          "base": -2.5
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "elemental_wizards_rpg:wand_aqua",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "elemental_wizards_rpg"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    },
+    "lne_wizards:earth_evoker": {
+      "attributes": {
+        "spell_power:earth": {
+          "base": -2.5
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "elemental_wizards_rpg:wand_terra",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "elemental_wizards_rpg"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    },
+    "lne_wizards:air_evoker": {
+      "attributes": {
+        "spell_power:air": {
+          "base": -2.5
+        }
+      },
+      "equipment": {
+        "mainhand": {
+          "item": "elemental_wizards_rpg:wand_wind",
+          "drop_chance": 0.0,
+          "required_mods": [
+            "elemental_wizards_rpg"
+          ],
+          "fallback_item": "minecraft:stick"
+        }
+      }
+    }
+  }
+}

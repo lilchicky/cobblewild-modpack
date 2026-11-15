@@ -1,0 +1,159 @@
+{
+	id: "40E3EB04235BB13A"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 25
+			id: "39160CC7D56F88D1"
+			item: {
+				count: 1
+				id: "mega_showdown:normal_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "7768C2E38F8A2E26"
+			item: {
+				count: 1
+				id: "mega_showdown:fire_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "6ED60A8DDDEB866C"
+			item: {
+				count: 1
+				id: "mega_showdown:water_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "477C2C6D21556806"
+			item: {
+				count: 1
+				id: "mega_showdown:electric_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "5D9157D11B70095E"
+			item: {
+				count: 1
+				id: "mega_showdown:grass_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "4914387BCF8609AD"
+			item: {
+				count: 1
+				id: "mega_showdown:ice_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "64C711BB4DD82390"
+			item: {
+				count: 1
+				id: "mega_showdown:fighting_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "4C9EC73D1AF564BD"
+			item: {
+				count: 1
+				id: "mega_showdown:poison_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "2E427C78A89B1677"
+			item: {
+				count: 1
+				id: "mega_showdown:ground_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "7EE7E725E04B78FB"
+			item: {
+				count: 1
+				id: "mega_showdown:flying_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "0587ED9BBCC841FA"
+			item: {
+				count: 1
+				id: "mega_showdown:psychic_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "4B71E46FE8365D1C"
+			item: {
+				count: 1
+				id: "mega_showdown:bug_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "37985A35DC110000"
+			item: {
+				count: 1
+				id: "mega_showdown:rock_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "7013BB3D01A243FF"
+			item: {
+				count: 1
+				id: "mega_showdown:ghost_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "631BF8E3E856BB6D"
+			item: {
+				count: 1
+				id: "mega_showdown:dragon_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "3A5FE9ACA8FF2541"
+			item: {
+				count: 1
+				id: "mega_showdown:dark_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "0F2AC73EB1377691"
+			item: {
+				count: 1
+				id: "mega_showdown:steel_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "482C0267AE030488"
+			item: {
+				count: 1
+				id: "mega_showdown:fairy_tera_shard"
+			}
+		}
+		{
+			count: 25
+			id: "687E5CE33C5C113A"
+			item: {
+				count: 1
+				id: "mega_showdown:stellar_tera_shard"
+			}
+		}
+	]
+}

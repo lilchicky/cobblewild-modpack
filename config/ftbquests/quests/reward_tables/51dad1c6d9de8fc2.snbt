@@ -1,0 +1,153 @@
+{
+	id: "51DAD1C6D9DE8FC2"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{
+			count: 16
+			id: "4780A6381CF42BB6"
+			item: {
+				count: 1
+				id: "cobblemon:normal_gem"
+			}
+		}
+		{
+			count: 16
+			id: "7F14E0AFADB2A965"
+			item: {
+				count: 1
+				id: "cobblemon:fire_gem"
+			}
+		}
+		{
+			count: 16
+			id: "55DC40565F82CADB"
+			item: {
+				count: 1
+				id: "cobblemon:water_gem"
+			}
+		}
+		{
+			count: 16
+			id: "75A666125EADF0F6"
+			item: {
+				count: 1
+				id: "cobblemon:grass_gem"
+			}
+		}
+		{
+			count: 16
+			id: "1256BB5C4DC58545"
+			item: {
+				count: 1
+				id: "cobblemon:electric_gem"
+			}
+		}
+		{
+			auto: "enabled"
+			count: 16
+			id: "21C3AE05A4C7A7A1"
+			item: {
+				count: 1
+				id: "cobblemon:ice_gem"
+			}
+		}
+		{
+			count: 16
+			id: "025175DA2970B148"
+			item: {
+				count: 1
+				id: "cobblemon:fighting_gem"
+			}
+		}
+		{
+			count: 16
+			id: "7E2CA80F888D9E5A"
+			item: {
+				count: 1
+				id: "cobblemon:poison_gem"
+			}
+		}
+		{
+			count: 16
+			id: "53EB1F8C23C697A9"
+			item: {
+				count: 1
+				id: "cobblemon:ground_gem"
+			}
+		}
+		{
+			count: 16
+			id: "411CAD39C2AF6AA6"
+			item: {
+				count: 1
+				id: "cobblemon:flying_gem"
+			}
+		}
+		{
+			count: 16
+			id: "1DFC635655807341"
+			item: {
+				count: 1
+				id: "cobblemon:psychic_gem"
+			}
+		}
+		{
+			count: 16
+			id: "3C0582DC940A9407"
+			item: {
+				count: 1
+				id: "cobblemon:bug_gem"
+			}
+		}
+		{
+			count: 16
+			id: "4CCDE74AF7C6550E"
+			item: {
+				count: 1
+				id: "cobblemon:rock_gem"
+			}
+		}
+		{
+			count: 16
+			id: "44CAA3682047FDD1"
+			item: {
+				count: 1
+				id: "cobblemon:ghost_gem"
+			}
+		}
+		{
+			count: 16
+			id: "1AB349D48060564E"
+			item: {
+				count: 1
+				id: "cobblemon:dragon_gem"
+			}
+		}
+		{
+			count: 16
+			id: "23B7AE7DF66147F7"
+			item: {
+				count: 1
+				id: "cobblemon:dark_gem"
+			}
+		}
+		{
+			count: 16
+			id: "23047D12C93D38E0"
+			item: {
+				count: 1
+				id: "cobblemon:steel_gem"
+			}
+		}
+		{
+			auto: "enabled"
+			count: 16
+			id: "7DE67FC156954F05"
+			item: {
+				count: 1
+				id: "cobblemon:fairy_gem"
+			}
+		}
+	]
+}

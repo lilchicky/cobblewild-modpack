@@ -1,0 +1,835 @@
+{
+	autofocus_id: "22B9FFFCD8DB03FF"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "adventure"
+	group: "23D637B0D867CAAB"
+	icon: {
+		components: {
+			"ftbquests:icon": "cataclysm:textures/gui/boss_bar/life_remain_skull.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "50EF109ADCEE0D7D"
+	images: [
+		{
+			height: 2.0d
+			id: "53AAEA8D1E3264EB"
+			image: "simplyswords:item/chompolotl_sheet"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			id: "555386707FADE986"
+			image: "simplyswords:item/lichblade"
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			id: "603C0B4E13341383"
+			image: "arsenal:item/unique_staff_damage_3"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			height: 3.0d
+			id: "55E694D4CA2729B2"
+			image: "archers:item/aether_longbow_pulling_2"
+			rotation: 0.0d
+			width: 3.0d
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			id: "79A64BE0290A60D6"
+			image: "cobblewild:textures/quests/boss-1.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: -6.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			id: "4CA0560C4A51484D"
+			image: "cobblewild:textures/quests/boss-2.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			height: 3.0d
+			id: "3B623EBAD68B336C"
+			image: "minecraft:block/spawner"
+			rotation: 0.0d
+			width: 3.0d
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:skeleton_skull"
+			}
+			id: "22B9FFFCD8DB03FF"
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "44E6BFF3A7F07D21"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2CECA1A317D30DD6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2C6752CB6A139808"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:netherite_monstrosity"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D3D542147C219D6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3FCBEF7C2D2FFB09"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1CB8972314D63698"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ender_guardian"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "671188710F873554"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "24CE54F94F300E5E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6FEAF38B680C170D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_harbinger"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4518611B3D119A6A"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -2.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4A83C27A68B1549E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7C1353AA7E0F0977"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ancient_remnant"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "69B3BAEF078C5E88"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2916AA340C30332A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "472B4CB0CF7C5B2D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:the_leviathan"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5A364BA9AB60010E"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "29492DB1756F67C3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "131EAB6C3E39802F"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:scylla"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0AD7F43DC66E25A0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "043B56D36FC7E73C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "5AB9F01FD5B699E4"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:maledictus"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "364EE9769C4903E4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "576D5D18380B7370"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "07D73EC9C79F83C0"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "cataclysm:ignis"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "49ACE3FACC8114D7"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2BB584E23BD9E38A"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56154FD609551BA4"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:wither"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "705218C13C2366F4"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "03B2E7972B45DEED"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6F6A9453F633F424"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "63B9C524EB38E7F9"
+				type: "kill"
+				value: 1L
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "54954B6478B4E26F"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6E9232FDB599191D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:warden"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "25DEC932CCBD889E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1E29085B606D20F4"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "763928EAE88B6D90"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "minecraft:elder_guardian"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2009196020C25518"
+				type: "kill"
+				value: 1L
+			}]
+			x: 2.0d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "00308CE6C53E6576"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "58B6A6ED4EE6A410"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "minecraft:enderman_spawn_egg"
+				}
+				id: "530C58720B7FF4D1"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 2.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "743EC3B53396281B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "52DD29B2B2113C0F"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "cataclysm:the_baby_leviathan_spawn_egg"
+				}
+				id: "683CDFD9F3CF2D81"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3DCED7873FD295AC"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "25568F6D4E119AD0"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "luminous_monsters:crimson_walker_spawn_egg"
+				}
+				id: "4C023E2BDC19ED46"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.5d
+			y: 3.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1E66536FA2BE58E6"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E3379F7BC56E02B"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				icon: {
+					id: "cataclysm:cindaria_spawn_egg"
+				}
+				id: "023621D1630756C6"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.5d
+			y: 3.0d
+		}
+		{
+			can_repeat: false
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6EBCEA8A5419557C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "39BC05B93DE5670D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				abilities: ""
+				action: "kill"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "legendarymonuments:pedestal"
+				}
+				id: "35BA09F27A2D58EC"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: "cobblemon:articuno,cobblemon:zapdos,cobblemon:moltres,cobblemon:raikou,cobblemon:entei,cobblemon:suicune,cobblemon:regirock,cobblemon:regice,cobblemon:registeel,cobblemon:latias,cobblemon:latios,cobblemon:uxie,cobblemon:mesprit,cobblemon:azelf,cobblemon:heatran,cobblemon:regigigas,cobblemon:cresselia,cobblemon:cobalion,cobblemon:terrakion,cobblemon:virizion,cobblemon:tornadus,cobblemon:thundurus,cobblemon:landorus,cobblemon:typenull,cobblemon:silvally,cobblemon:tapukoko,cobblemon:tapulele,cobblemon:tapubulu,cobblemon:tapufini,cobblemon:nihilego,cobblemon:buzzwole,cobblemon:pheromosa,cobblemon:xurkitree,cobblemon:celesteela,cobblemon:kartana,cobblemon:guzzlord,cobblemon:naganadel,cobblemon:stakataka,cobblemon:blacephalon,cobblemon:kubfu,cobblemon:urshifu,cobblemon:regieleki,cobblemon:regidrago,cobblemon:glastrier,cobblemon:spectrier,cobblemon:enamorus,cobblemon:wochien,cobblemon:chienpao,cobblemon:tinglu,cobblemon:chiyu,cobblemon:okidogi,cobblemon:munkidori,cobblemon:fezandipiti,cobblemon:ogerpon,cobblemon:mewtwo,cobblemon:lugia,cobblemon:hooh,cobblemon:kyogre,cobblemon:groudon,cobblemon:rayquaza,cobblemon:dialga,cobblemon:palkia,cobblemon:giratina,cobblemon:reshiram,cobblemon:zekrom,cobblemon:kyurem,cobblemon:xerneas,cobblemon:yveltal,cobblemon:zygarde,cobblemon:cosmog,cobblemon:cosmoem,cobblemon:solgaleo,cobblemon:lunala,cobblemon:necrozma,cobblemon:zacian,cobblemon:zamazenta,cobblemon:eternatus,cobblemon:calyrex,cobblemon:koraidon,cobblemon:miraidon,cobblemon:terapagos,cobblemon:mew,cobblemon:celebi,cobblemon:jirachi,cobblemon:deoxys,cobblemon:phione,cobblemon:manaphy,cobblemon:darkrai,cobblemon:shaymin,cobblemon:arceus,cobblemon:victini,cobblemon:keldeo,cobblemon:meloetta,cobblemon:genesect,cobblemon:diancie,cobblemon:hoopa,cobblemon:volcanion,cobblemon:magearna,cobblemon:marshadow,cobblemon:zeraora,cobblemon:meltan,cobblemon:melmetal,cobblemon:zarude,cobblemon:pecharunt"
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "246A765ADCD38635"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1D4AE64B590FACAE"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				entity: "loot_n_explore:frost_monarch"
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "379294552855F5F1"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.0d
+			y: 0.0d
+		}
+	]
+}

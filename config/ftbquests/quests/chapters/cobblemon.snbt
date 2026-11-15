@@ -1,0 +1,5046 @@
+{
+	autofocus_id: "7C0A53A9B8C3737B"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "cobblemon"
+	group: "5FCEC9A55C48F17E"
+	icon: {
+		components: {
+			"ftbquests:icon": "cobblemon_quests:item/poke_ball_icon"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "434782EADF0855F8"
+	images: [
+		{
+			height: 2.0d
+			id: "5A9F61E0D82D2621"
+			image: "cobblewild:textures/quests/train.png"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 7.5d
+		}
+		{
+			height: 1.5d
+			id: "236D1C12F4F33037"
+			image: "cobblemon_quests:item/poke_ball_icon"
+			rotation: 0.0d
+			width: 1.5d
+			x: 4.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			id: "2532CED66DBADE91"
+			image: "cobblemon:item/poke_balls/ancient_origin_ball"
+			rotation: 0.0d
+			width: 2.0d
+			x: 4.0d
+			y: -3.0d
+		}
+		{
+			height: 2.0d
+			id: "47353314C520C198"
+			image: "cobblemon:item/poke_balls/beast_ball"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			height: 2.0d
+			id: "126BFDEC4AA84DA9"
+			image: "cobblemon:item/poke_balls/ultra_ball"
+			rotation: 0.0d
+			width: 2.0d
+			x: -4.0d
+			y: -3.0d
+		}
+		{
+			height: 0.32d
+			id: "0AD0707CB0B82843"
+			image: "cobblewild:textures/quests/levelup.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.1d
+			y: 8.6d
+		}
+		{
+			height: 2.0d
+			id: "689E85F52386AFB7"
+			image: "cobblewild:textures/quests/powerup.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 10.0d
+			y: -0.5d
+		}
+		{
+			height: 0.32d
+			id: "38ABEF332DEC0117"
+			image: "cobblewild:textures/quests/discover.png"
+			rotation: 0.0d
+			width: 6.5d
+			x: 10.0d
+			y: 0.75d
+		}
+		{
+			height: 2.0d
+			id: "00ABA81773B9835D"
+			image: "cobblewild:textures/quests/battle.png"
+			rotation: 0.0d
+			width: 6.0d
+			x: 0.0d
+			y: -9.0d
+		}
+		{
+			height: 0.32d
+			id: "210D3A0412C0B130"
+			image: "cobblewild:textures/quests/defeat.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.0d
+			y: -7.75d
+		}
+		{
+			height: 2.0d
+			id: "123ED7E2529B1C4D"
+			image: "cobblewild:textures/quests/raid.png"
+			rotation: 0.0d
+			width: 4.0d
+			x: -9.0d
+			y: -0.5d
+		}
+		{
+			height: 0.32d
+			id: "78E848A7191AB818"
+			image: "cobblewild:textures/quests/conquer.png"
+			rotation: 0.0d
+			width: 2.5d
+			x: -9.0d
+			y: 0.75d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7C0A53A9B8C3737B"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:ancient_poke_ball"
+			}
+			id: "27CC50A7F69F1172"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/tag @p add cap_21"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "1B70FB35226511BC"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					id: "277210679F31A5F5"
+					item: {
+						count: 1
+						id: "cobblemon:healing_machine"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "2EE246450D67C35E"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "753C15C9847ED6DD"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "57B805C8D7AE9571"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "2A33871BD5F8CE09"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 8
+					id: "72593FF8049A38FE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 25L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemon:poke_ball"
+				}
+				id: "5FD0777DD356745A"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["27CC50A7F69F1172"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:ancient_great_ball"
+			}
+			id: "40E84752748E8EE8"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/tag @p add cap_27"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "06516E5F6E2A9B3E"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 16
+					id: "6EA1D49CAE525D5F"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "366C4812D5F93B7E"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "2E177AD7DD786A06"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "4A2D27C5AA12EC9B"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 16
+					id: "2340A71E7245967E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_s"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 50L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemon:poke_ball"
+				}
+				id: "058BD6B77938638A"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependent_lines: true
+			id: "7C0A53A9B8C3737B"
+			rewards: [
+				{
+					id: "27EEAEA1D77D1306"
+					item: {
+						count: 1
+						id: "cobblemon:pc"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "6D43FF419EF92FB1"
+					item: {
+						count: 1
+						id: "cobblemon:poke_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "4B0EE58863D1858E"
+					item: {
+						count: 1
+						id: "cobblemon:pokedex_red"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "797D65F54A02AE55"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "5DCA72E6F1B0C79A"
+					item: {
+						count: 1
+						id: "comforts:sleeping_bag_red"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7BF2545A12792A0E"
+					item: {
+						count: 1
+						id: "cobblemon:potion"
+					}
+					type: "item"
+				}
+				{
+					id: "1D55729E8FFC99EB"
+					item: {
+						count: 1
+						id: "cobblemonarmory:cobblemon_smithing_upgrade"
+					}
+					type: "item"
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "cobblemon:root"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "59E2E3C52FABE055"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["40E84752748E8EE8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:netherrack"
+			}
+			id: "1B131EA35C51CC56"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/tag @p add cap_34"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "6DF2A91C42FECDDE"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					advancement: "minecraft:story/enter_the_nether"
+					auto: "enabled"
+					criterion: ""
+					icon: {
+						id: "minecraft:netherrack"
+					}
+					id: "20121E6F7AF0ECA4"
+					team_reward: false
+					type: "advancement"
+				}
+				{
+					id: "4B2E6C4F0DBCFE1F"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4FE645A95267947F"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1CF4BCD09FF21D7A"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "3F5792EC67EDDDFA"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 8
+					id: "369C047D374FC012"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "69C30F8851A837EE"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 150L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemon:poke_ball"
+				}
+				id: "6E234AC3985748C6"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["1B131EA35C51CC56"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:ancient_ultra_ball"
+			}
+			id: "497482FD86299B36"
+			rewards: [
+				{
+					auto: "enabled"
+					command: "/tag @p add cap_46"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "1C5FA18066F7CF9F"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 16
+					id: "2786F7900AC82B59"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "4CEB30BDDC4FCCEB"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "1D49D8A0CA1EAAB8"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "454ADF54B47508F6"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					count: 16
+					id: "65CB42ED88C8E69E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 250L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "11DF67C6BEEF8FDB"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["497482FD86299B36"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:end_stone"
+			}
+			icon_scale: 1.25d
+			id: "087C33FF357E1162"
+			rewards: [
+				{
+					command: "/tag @p add cap_55"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "3F7909987A0C83DC"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					advancement: "minecraft:story/enter_the_end"
+					auto: "enabled"
+					criterion: ""
+					icon: {
+						id: "minecraft:end_stone"
+					}
+					id: "705E8FE3CBCBD796"
+					team_reward: false
+					type: "advancement"
+				}
+				{
+					id: "22D2F5EA749FD6E5"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6478B97E52C4A951"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "430E173165F4E50D"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "5AE0A40A111B4120"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "43E92708429A165C"
+					item: {
+						count: 1
+						id: "mirror_mirror:mirror"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "62E10B3F9A60D9BE"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "10234F21EF6B7853"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			size: 1.2d
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 400L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemon:poke_ball"
+				}
+				id: "646C8AE53508B891"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["087C33FF357E1162"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:poke_ball"
+			}
+			id: "7645F51E78D3E2FC"
+			rewards: [
+				{
+					command: "/tag @p add cap_68"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "59EC9FF9A0002401"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 16
+					id: "4E536AD1AAA9F953"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "485EE631A1BC9F35"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "6D2FB7F4F956B437"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "78A0FE375D324C4C"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					count: 16
+					id: "482F1D49FE6CE95B"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 550L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "2384368CFB7631B1"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["7645F51E78D3E2FC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:sculk"
+			}
+			id: "277940630F256FB7"
+			rewards: [
+				{
+					command: "/tag @p add cap_76"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "4F2FD5926AD1DFD4"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					advancement: "deeperdarker:main/enter_otherside"
+					auto: "enabled"
+					criterion: ""
+					icon: {
+						id: "minecraft:sculk"
+					}
+					id: "33EEC4E6D4707CC4"
+					team_reward: false
+					type: "advancement"
+				}
+				{
+					id: "42C71C489730FE97"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1625F6C5AB8BC0D7"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "084F5F2314CCFB2F"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "7681EFA6DB262EEA"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 8
+					id: "6D55266D59CC4E4D"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6446BCD3AAD32E7C"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "hexagon"
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 650L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "666A010E0D401A2A"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["277940630F256FB7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "74B7A4440391A9BC"
+			rewards: [
+				{
+					command: "/tag @p add cap_81"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "50F07590382A76F6"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 32
+					id: "19C5CC4FEF55D8AC"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0830DE6DD35F5A26"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "1E7C7B59C5FCF3DE"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "731AD8C24865F3E0"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "195DADDABEB302A2"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+				{
+					count: 16
+					id: "283319C34518939E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 750L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "2C39271686D20E4F"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["74B7A4440391A9BC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "3D34F13D08DF4AE3"
+			rewards: [
+				{
+					command: "/tag @p add cap_90"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "21396E692AC9F24C"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 32
+					id: "69852581C39D611C"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2852F4DC7627A916"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "6FAD064C26999070"
+					item: {
+						count: 1
+						id: "cobblemon:cherish_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "37D7F71A60A78C95"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "29C9864503CF9D27"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "53CD030D77E37A70"
+					type: "xp_levels"
+					xp_levels: 100
+				}
+				{
+					count: 32
+					id: "31C54A2229517EF6"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 850L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "4BE78065B645A2EE"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 1.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["3D34F13D08DF4AE3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "09897F87E1393D94"
+			rewards: [
+				{
+					command: "/tag @p add cap_100"
+					icon: {
+						id: "cobblemon:rare_candy"
+					}
+					id: "027B45AB530F3063"
+					permission_level: 2
+					silent: true
+					team_reward: false
+					type: "command"
+				}
+				{
+					count: 64
+					id: "0787B8F36EFF8673"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "58AAC7FAC4FD9513"
+					item: {
+						count: 1
+						id: "cobblemon:cherish_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "3425EAE42D88C105"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0891A9B06E59D08C"
+					item: {
+						count: 1
+						id: "minecraft:nether_star"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "23CABDD7295C95DA"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "137FEF39FB8EFB57"
+					type: "xp_levels"
+					xp_levels: 1000
+				}
+				{
+					count: 64
+					id: "5EECE7FDA1B883A2"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "049E9D6A6582990A"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+			]
+			shape: "diamond"
+			size: 1.5d
+			tasks: [{
+				abilities: ""
+				action: "have_registered"
+				amount: 950L
+				aspects: ""
+				biome: ""
+				dex_progress: "caught"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "71AD0DBAB452FC0E"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "5FDAB56B2B67F26F"
+			rewards: [
+				{
+					id: "65766835A016014F"
+					item: {
+						count: 1
+						id: "cobblemon:ancient_origin_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "62F8AEA8CA21D11A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					id: "686B5DB6DA7AB5E7"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "17B2A878DAD75BC0"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1039ABE508B20A42"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "catch"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				id: "0D4B4D750877E751"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: true
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.0d
+			y: 1.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "064E2966AB0D38C3"
+			rewards: [
+				{
+					count: 16
+					id: "624B6DACF6CFD260"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "57C1FE924BE8362A"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "3F486A5B261BEBFA"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "7FD9DA4ACE31765B"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7EC93042384E710D"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemon:catching/full_party"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2FB4C01A64B82F84"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 1.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:saddle"
+			}
+			id: "5C49D5333A338885"
+			rewards: [
+				{
+					count: 16
+					id: "1D268E9A02108D6E"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "56C1E2427D18182E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "163A1A98DA791B74"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "30FDADD87BFF0894"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "6A038BD0443854DF"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemon:catching/ride_pokemon"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6DFB5FB1AB09AF9C"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:pokedex_red"
+			}
+			id: "53734F4B0FA40CB2"
+			rewards: [
+				{
+					count: 16
+					id: "7D32C0A76156001F"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "701DDDC47A51AD44"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "563C91AAA60526EB"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					id: "674E16D9134F36E7"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "460BBC1CE6C1E073"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4C848191A67BE590"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:normal_gem"
+					}
+					id: "41D32751F7A1823F"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "normal"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:fire_gem"
+					}
+					id: "030585F5D96D5411"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "fire"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:water_gem"
+					}
+					id: "055A2BD40988869E"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "water"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:grass_gem"
+					}
+					id: "2AED88F691C10472"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "grass"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:electric_gem"
+					}
+					id: "19A01FE2BE9E1434"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "electric"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:ice_gem"
+					}
+					id: "5815FEC8A5D80957"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "ice"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:fighting_gem"
+					}
+					id: "2CA2851EE77B0936"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "fighting"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:poison_gem"
+					}
+					id: "27966F57DB81652E"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "poison"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:ground_gem"
+					}
+					id: "65A456462AC11A8D"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "ground"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:flying_gem"
+					}
+					id: "62B7B8E7FB532753"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "flying"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:psychic_gem"
+					}
+					id: "7629A2E96025E8FC"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "psychic"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:bug_gem"
+					}
+					id: "28DD06360D9B6B0C"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "bug"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:rock_gem"
+					}
+					id: "0D472550FCBB7F56"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "rock"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:ghost_gem"
+					}
+					id: "66759ABC69462B9C"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "ghost"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:dragon_gem"
+					}
+					id: "29DBA1BF215FEBF4"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dragon"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:dark_gem"
+					}
+					id: "4FDA7EE488367ECA"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "dark"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:steel_gem"
+					}
+					id: "6282101208D7CD1A"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "steel"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+				{
+					abilities: ""
+					action: "catch"
+					amount: 1L
+					aspects: ""
+					biome: ""
+					dex_progress: "seen"
+					dimension: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					form: ""
+					gender: ""
+					held_items: ""
+					icon: {
+						id: "cobblemon:fairy_gem"
+					}
+					id: "1B8344F8B35C4698"
+					max_level: 0
+					max_turns: 0
+					min_level: 0
+					moves: ""
+					natures: ""
+					poke_ball_used: ""
+					pokemon: ""
+					pokemon_type: "fairy"
+					raid_tiers: ""
+					region: ""
+					shiny: false
+					targetPlayer: ""
+					time_max: 24000L
+					time_min: 0L
+					trainers: ""
+					type: "cobblemon_tasks:cobblemon_task"
+				}
+			]
+			x: 2.0d
+			y: -1.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "51A276E5375829AA"
+			rewards: [
+				{
+					count: 5
+					id: "31722321D713C259"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7E909420D5F860F1"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "7838A526903C3322"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "join_raid"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemonraiddens:raid_crystal_block"
+				}
+				id: "27C6D1B13EB91309"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: ""
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["51A276E5375829AA"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "339F2AB992E44147"
+			rewards: [
+				{
+					id: "17932071CD2DA703"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "29C3A1BDD0686EF4"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "148E3DA8AFBCC057"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "68981DD48BA49DBD"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_one"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "26DF621296E445E5"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["339F2AB992E44147"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "206403A38C89C898"
+			rewards: [
+				{
+					id: "19C6C45C9050DE66"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "56554BF31FCB865B"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "28BB88CD30223425"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4538F621305B2DFE"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_two"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4BA413E972650CE8"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["206403A38C89C898"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "56E6A8C31242379C"
+			rewards: [
+				{
+					id: "3A7C2B6F8240EA53"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "0EE507AC98A55F64"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "1F777391E354F4C0"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0385547F8B0C51D1"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_three"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "427A270F93DA4896"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["56E6A8C31242379C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1E6FE0A7879DD301"
+			rewards: [
+				{
+					id: "619DB197BF8F47C9"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "157CB8981D560318"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "0975644A33A649E9"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4F664D188C75E35F"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_four"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2F9CF993C9C7A80C"
+				type: "advancement"
+			}]
+			x: -6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E6FE0A7879DD301"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "72BBDC69D8E949C5"
+			rewards: [
+				{
+					id: "1795633E8F896EA5"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "10643D9CD7050336"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "22C399A744B3AF50"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1FCC5DDE9846E20D"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_five"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5C55232C346835AE"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["72BBDC69D8E949C5"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "6906FF8BC6E2E6D9"
+			rewards: [
+				{
+					id: "2917FE3BB725ED4A"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					id: "6A71B1C498542DBA"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					id: "047B2AF9D1532A01"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "45A41093C41CFB69"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemonraiddens:tier_six"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "28907FAA4C3CE423"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			dependencies: ["6906FF8BC6E2E6D9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "798D2E57E7AFEB85"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					icon: {
+						components: {
+							"ftbquests:icon": "emi_loot:textures/gui/chest.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "629C400261FB6431"
+					table_id: 8156226683843162926L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "781EE761E2BC1F6E"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				abilities: ""
+				action: "win_raid"
+				amount: 1L
+				aspects: ""
+				biome: ""
+				dex_progress: "seen"
+				dimension: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				form: ""
+				gender: ""
+				held_items: ""
+				icon: {
+					id: "cobblemonraiddens:raid_crystal_block"
+				}
+				id: "0B6E5016CD3D7BD7"
+				max_level: 0
+				max_turns: 0
+				min_level: 0
+				moves: ""
+				natures: ""
+				poke_ball_used: ""
+				pokemon: ""
+				pokemon_type: ""
+				raid_tiers: "7"
+				region: ""
+				shiny: false
+				targetPlayer: ""
+				time_max: 24000L
+				time_min: 0L
+				trainers: ""
+				type: "cobblemon_tasks:cobblemon_task"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "56CDACAD94DCCAF4"
+			rewards: [
+				{
+					command: "/summon rctmod:trainer_association"
+					icon: {
+						id: "minecraft:villager_spawn_egg"
+					}
+					id: "6291146534C14A1F"
+					permission_level: 2
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5E69641858A6D83E"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "30C25D2470BEC2B6"
+				item: { count: 1, id: "rctmod:trainer_card" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -2.25d
+		}
+		{
+			dependencies: ["56CDACAD94DCCAF4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "75B858F5AD827278"
+			rewards: [
+				{
+					count: 8
+					id: "7DC3D2F09C619C8F"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "74832D8F9A10BD03"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "6B74BF868704B54C"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "3B86000515E1B953"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_roark_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "42806FA025B02A3A"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_brock"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "6C8327B389BA523B"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_mirskle"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1AB9670D72B3DEBD"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: -1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["75B858F5AD827278"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:sport_ball"
+			}
+			id: "63FDB60B9561A37A"
+			rewards: [
+				{
+					count: 8
+					id: "3EDB61E7C7C797EA"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "41473008D1D60475"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "5B6EF52975D4F455"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "1B5F2A11774DCE33"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_misty"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "572058920841A6E7"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_gardenia_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7B81793E15E18A55"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_vega"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "12686BCF17529C08"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: -1.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["63FDB60B9561A37A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:premier_ball"
+			}
+			id: "2F423D970BC0FF40"
+			rewards: [
+				{
+					count: 16
+					id: "24A0E534A802AF35"
+					item: {
+						count: 1
+						id: "cobblemon:great_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "4F0791889E130C60"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_m"
+					}
+					type: "item"
+				}
+				{
+					id: "429C957FF6243912"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "3F3E23147FF8175F"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_lt_surge"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "0926486797B4979E"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_maylene_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "396647F73822AD90"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_alice"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "5C3805B84861F36A"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: -1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F423D970BC0FF40"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:great_ball"
+			}
+			id: "0603B941499966EC"
+			rewards: [
+				{
+					count: 16
+					id: "617659DBF815CB7D"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "04771E69E13648ED"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "1F85DFB42B54645E"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "0D1EBB1CA6DD752C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_erika"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "10ACDDC86C09C642"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_wake_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1B63BF33D74CFECB"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_mel"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "6449A51F1773CFAB"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: -0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0603B941499966EC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:quick_ball"
+			}
+			id: "518B8D7ACCA36E38"
+			rewards: [
+				{
+					count: 16
+					id: "4AE8B7CD97E5E430"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "2753F8DE67575600"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "42849200325AEE23"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "4C11D59A5F5C9A2C"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_sabrina"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7751F2FDEAA426F8"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_fantina_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "704AF60CFA7D4E23"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_galavan"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "4C618F660D925DF0"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 0.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["518B8D7ACCA36E38"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:ultra_ball"
+			}
+			id: "7847C713C746000E"
+			rewards: [
+				{
+					count: 32
+					id: "3CD15C1077882F42"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5DC61B646D0CB8CF"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "0CF8C46E5CA64A59"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "4376A612D8D2A927"
+					type: "xp_levels"
+					xp_levels: 15
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_koga"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "4F812147BFB23D00"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_byron_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "4E1F58126110C0B5"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_big_mo"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "010001E805390995"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["7847C713C746000E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:luxury_ball"
+			}
+			id: "3FC2B54B141E67FF"
+			rewards: [
+				{
+					count: 16
+					id: "360D4BE75DFA8473"
+					item: {
+						count: 1
+						id: "cobblemon:beast_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "5DCBF920491D2822"
+					item: {
+						count: 1
+						id: "cobblemon:ultra_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "21F15B940406E1AB"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "5DF253EEE38A5156"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "1730B6B05385124D"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_blaine"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7F4A870604976DC5"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_candice_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "4DDC9D0819A41032"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_tessy"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "65EC67F25EE52AAD"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 1.75d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FC2B54B141E67FF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "cobblemon:beast_ball"
+			}
+			id: "373F8B9BD646D42D"
+			rewards: [
+				{
+					id: "223FC8670FCA7B5F"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4F1ADC2EC9D9827F"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "449FC2F6C6F1B252"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					id: "565456B92018B7BF"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "243E377D61323E71"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_leader_benjamin"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "60F037650FBFBAFE"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_leader_clair"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "75BA1AFF724ADA6C"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_gym_leader_volkner_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "73D22703EF7EC4F0"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["373F8B9BD646D42D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "cobblemon:master_ball"
+			}
+			id: "6A1FEC36074CC222"
+			rewards: [
+				{
+					id: "123B1AA3E5E738AD"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "6B88DEED45BF6C31"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0EA20328D02A9EF7"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5F7E1A3950A1551E"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_xl"
+					}
+					type: "item"
+				}
+				{
+					id: "07C3C58C5D5DE0B8"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "699D695DA6EAE76F"
+					type: "xp_levels"
+					xp_levels: 25
+				}
+			]
+			shape: "diamond"
+			size: 1.25d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_champion_terry"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "742B8E3774445939"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_champion_cynthia_1"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "2C735C16EF0F2428"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_champion_jax"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7AC0B42E3DB63611"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -3.75d
+		}
+		{
+			dependencies: ["6A1FEC36074CC222"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "cobblemon:cherish_ball"
+			}
+			id: "66F63154DCB0FEA5"
+			rewards: [
+				{
+					count: 16
+					id: "62B3112CCBD3E7F5"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					id: "2277488E454CF0FB"
+					item: {
+						count: 1
+						id: "cobblemon:cherish_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "3CE642459D1DF32B"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_sack"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "67A1DC112CAD3722"
+					item: {
+						count: 1
+						id: "cobblemon:rare_candy"
+					}
+					type: "item"
+				}
+				{
+					count: 2
+					id: "09366BF3FF976FA9"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:golden_plush_box"
+					}
+					type: "item"
+				}
+				{
+					id: "5ABD4B01E74AC248"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			shape: "diamond"
+			size: 2.0d
+			tasks: [
+				{
+					advancement: "rctmod:trainers/defeat_champion_cynthia_3"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7AA0CC0F52D36238"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_trainer_blue"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "58AFE781D8B6B73F"
+					optional_task: true
+					type: "advancement"
+				}
+				{
+					advancement: "rctmod:trainers/defeat_trainer_red"
+					criterion: ""
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "5C9F3E19358307EA"
+					optional_task: true
+					type: "advancement"
+				}
+			]
+			x: 0.0d
+			y: -5.3d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2E9AE97C4EDF834A"
+			rewards: [{
+				id: "7944F083D47AA625"
+				item: {
+					count: 1
+					id: "mega_showdown:mega_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1FA9C7C89C2D8D7D"
+				item: { count: 1, id: "mega_showdown:mega_stone" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "55909F57F5EA1289"
+			rewards: [
+				{
+					count: 8
+					id: "55880EC34CC96B36"
+					item: {
+						count: 1
+						id: "mega_showdown:power_spot"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "6BED5CAEBF9407BE"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_attack"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "49F72C30AC7A728B"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_defense"
+					}
+					type: "item"
+				}
+				{
+					count: 3
+					id: "718D20B4E8BEDE25"
+					item: {
+						count: 1
+						id: "cobblemonraiddens:cheer_heal"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "42530723302182C1"
+					item: {
+						count: 1
+						id: "mega_showdown:sweet_max_soup"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4FAB50601B58B96B"
+					item: {
+						count: 1
+						id: "mega_showdown:max_soup"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0D9CD07B88134EF8"
+					item: {
+						count: 1
+						id: "mega_showdown:dynamax_candy"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "748E9FBD3BBCB6C9"
+				item: { count: 1, id: "mega_showdown:wishing_star" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3DB9AB71F3B352DA"
+			rewards: [
+				{
+					id: "1E02D216FE288E71"
+					item: {
+						components: {
+							"cobblemon:tm_move": {
+								move: "terablast"
+							}
+						}
+						count: 1
+						id: "cobblemon:technical_machine"
+					}
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7040704CF8D340DA"
+					table_id: 4675839241146315066L
+					type: "choice"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "08D58564CD95E452"
+				item: { count: 1, id: "mega_showdown:tera_orb" }
+				type: "item"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "32D8EC722C42C02E"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6F9B0FC74903F2C0"
+					table_id: 2834231156676815561L
+					type: "all_table"
+				}
+				{
+					id: "171955857FE210F8"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "03D553192B3D5E69"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "cobblemon:catching/first_alpha_catch"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "25E00C5CC677F91A"
+				type: "advancement"
+			}]
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "258E62A709FE65AF"
+			rewards: [
+				{
+					id: "5E0104479F0637A7"
+					item: {
+						count: 1
+						id: "cobblemon:master_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "39A618F58FFB3991"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "7A5D4CDAAAA3A12C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "6D0C797D4DA221AC"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "5D4F72063D148066"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0BB3E1AF19971141"
+				item: { count: 1, id: "legendarymonuments:arc_phone" }
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "79076EF7C4EB3064"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "5CD5F5F9FE433385"
+					table_id: 3435266493625569657L
+					type: "choice"
+				}
+				{
+					count: 8
+					id: "1932DB9984FC57F9"
+					item: {
+						count: 1
+						id: "cobblemon:exp_candy_l"
+					}
+					type: "item"
+				}
+				{
+					id: "52498D156B8D22F9"
+					item: {
+						count: 1
+						id: "a_man_with_plushies:plush_box"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1DDED75A0E8929CF"
+					item: {
+						count: 1
+						id: "cobblemon:ancient_gigaton_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "7AE511A6566E22AA"
+					item: {
+						count: 1
+						id: "cobblemon:ancient_jet_ball"
+					}
+					type: "item"
+				}
+				{
+					count: 64
+					id: "7F96745E06843F42"
+					item: {
+						count: 1
+						id: "cobblemon:relic_coin"
+					}
+					type: "item"
+				}
+				{
+					id: "6BF8ADE779BACFDF"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+			]
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7A0A53618DFC6C06"
+					item: { count: 1, id: "cobblemon:restoration_tank" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "03E4FAFCBEB93AC4"
+					item: { count: 1, id: "cobblemon:fossil_analyzer" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "1CF6A94C90C13814"
+					item: { count: 1, id: "cobblemon:monitor" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "22410C57FFFE6B46"
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "710F447353B6A1AE"
+					item: { count: 1, id: "cobblemon:helix_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7B39E354144E5BF5"
+					item: { count: 1, id: "cobblemon:dome_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "5D59857042BF3D37"
+					item: { count: 1, id: "cobblemon:old_amber_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "58DD81E6DDEFFB93"
+					item: { count: 1, id: "cobblemon:root_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "0F040BEB58892D21"
+					item: { count: 1, id: "cobblemon:claw_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "38BBA9A27CC58452"
+					item: { count: 1, id: "cobblemon:skull_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7A50B33E857BCE4E"
+					item: { count: 1, id: "cobblemon:armor_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "398BBC78FBC9CD73"
+					item: { count: 1, id: "cobblemon:cover_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "4CB9E5BB97AA3C54"
+					item: { count: 1, id: "cobblemon:plume_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "7A0EFB3F4623FB30"
+					item: { count: 1, id: "cobblemon:jaw_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "0861235519680D2B"
+					item: { count: 1, id: "cobblemon:sail_fossil" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "242DEF3404570695"
+					item: { count: 1, id: "cobblemon:fossilized_bird" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "624356ADA62DE69E"
+					item: { count: 1, id: "cobblemon:fossilized_fish" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "349B104233217D2B"
+					item: { count: 1, id: "cobblemon:fossilized_drake" }
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "44FDD9C72D507EEA"
+					item: { count: 1, id: "cobblemon:fossilized_dino" }
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0906000E9BE86172"
+			rewards: [{
+				count: 8
+				id: "49D99E0487E91DD7"
+				item: {
+					count: 1
+					id: "mega_showdown:blank_z"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "52FAE77E4C6CDDA8"
+					item: { count: 1, id: "mega_showdown:sparkling_stone_light" }
+					optional_task: true
+					type: "item"
+				}
+				{
+					extraquests_options: {
+						aggregation: "AUTO"
+						duration: 600L
+						minimum_contribution: 0L
+						reset_damage: 0b
+						reset_death: 1b
+						reset_logout: 0b
+						shared: 0b
+						timer_enabled: 0b
+						timer_start: "FIRST_PROGRESS"
+					}
+					id: "35BA05982A2E1DBD"
+					item: { count: 1, id: "mega_showdown:sparkling_stone_dark" }
+					optional_task: true
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -0.5d
+		}
+	]
+}

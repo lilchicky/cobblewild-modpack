@@ -1,0 +1,72 @@
+{
+	// Reabsorption regeneration factor (proportion of 25% of maximum per second) - Default: 1.0
+	"factor": 1.0,
+	// Reabsorption regeneration delay in seconds - Default: 4.0
+	"delay": 4.0,
+	// Reabsorption custom visuals and the Endurance screen overlay (Default: true)
+	"visuals": true,
+	// Accessibility, read by each player's own game: how strongly the Endurance overlay pulses, from 0 (steady, no pulsing) to 1 (full pulse) - Default: 1.0
+	"endurance_overlay_pulse": 1.0,
+	// Accessibility, read by each player's own game: volume of the Endurance heartbeat, from 0 (off) to 1 - Default: 1.0
+	"endurance_heartbeat_volume": 1.0,
+	// Registration of turtle bracer
+	"turtle_bracer": true,
+	// Mod of turtle bracer (Evasion Rating points; 12 rating is a 50% Glancing Blow chance)
+	"turtle_bracer_mod": 5.0,
+	// Fraction of a hit's damage a Glancing Blow removes, from 0 to 1 - Default: 0.65
+	"glancing_reduction": 0.6499999761581421,
+	// Endurance: a hit that would leave you at or below this fraction of maximum health opens the Endurance window - Default: 0.2
+	"endurance_threshold": 0.20000000298023224,
+	// Endurance: seconds the Endurance damage reduction lasts once opened - Default: 4.0
+	"endurance_window": 4.0,
+	// Endurance: seconds from the window opening until it can open again, so 8 with a 4 second window is 50% uptime at best - Default: 8.0
+	"endurance_cooldown": 8.0,
+	// Registration of turtle girdle
+	"turtle_girdle": true,
+	// Mod of turtle girdle (Fortitude points; each is +10% saturation healing)
+	"turtle_girdle_mod": 4.0,
+	// Registration of arcane bracer
+	"arcane_bracer": true,
+	// Mod of arcane bracer (Suppression Rating points; 25 is one guaranteed Spell Suppression)
+	"arcane_bracer_mod": 8.0,
+	// Registration of nonbeliever amulet
+	"nonbeliever": true,
+	// Mod of nonbeliever amulet (Suppression Rating points; 25 is one guaranteed Spell Suppression)
+	"nonbeliever_mod": 10.0,
+	// Registration of defiance ring
+	"defiance_ring": true,
+	// Mod of defiance ring
+	"defiance_ring_mod": 0.15000000596046448,
+	// Registration of undying soul
+	"undying_soul": true,
+	// Mod of undying soul
+	"undying_soul_mod": 0.30000001192092896,
+	// Mod of gold absorption ring
+	"gold_absorption_ring_mod": 4.0,
+	// Mod of netherite absorption ring
+	"netherite_absorption_ring_mod": 6.0,
+	// Mod of gold necklace
+	"gold_absorption_necklace_mod": 0.25,
+	// Mod of netherite necklace
+	"netherite_absorption_necklace_mod": 0.5,
+	// Armor Conversion: grant Reabsorption, Evasion Rating or Fortitude to armor declared in the mage_armor, evasion_armor and fortitude_armor tier tags. Turning this off leaves the tagged armor as ordinary armor; already-worn pieces keep their bonus until re-equipped
+	"armor_conversion": true,
+	// Armor Conversion: Reabsorption granted by a full set of tier 1 mage armor
+	"mage_armor_tier_1": 8.0,
+	// Armor Conversion: Reabsorption granted by a full set of tier 2 mage armor
+	"mage_armor_tier_2": 14.0,
+	// Armor Conversion: Reabsorption granted by a full set of tier 3 mage armor. 20 points matches a player's maximum health, doubling effective HP
+	"mage_armor_tier_3": 20.0,
+	// Armor Conversion: Evasion Rating granted by a full set of tier 1 evasion armor
+	"evasion_armor_tier_1": 8.0,
+	// Armor Conversion: Evasion Rating granted by a full set of tier 2 evasion armor
+	"evasion_armor_tier_2": 16.0,
+	// Armor Conversion: Evasion Rating granted by a full set of tier 3 evasion armor. 24 rating is a 67% Glancing Blow chance, about 1.76x effective HP
+	"evasion_armor_tier_3": 24.0,
+	// Armor Conversion: Fortitude granted by a full set of tier 1 fortitude armor (each point is +10% saturation healing)
+	"fortitude_armor_tier_1": 4.0,
+	// Armor Conversion: Fortitude granted by a full set of tier 2 fortitude armor (each point is +10% saturation healing)
+	"fortitude_armor_tier_2": 7.0,
+	// Armor Conversion: Fortitude granted by a full set of tier 3 fortitude armor. 10 points doubles saturation healing, so the wearer needs twice the incoming DPS to be whittled down
+	"fortitude_armor_tier_3": 10.0
+}

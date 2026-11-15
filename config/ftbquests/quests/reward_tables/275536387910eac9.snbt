@@ -1,0 +1,31 @@
+{
+	id: "275536387910EAC9"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			count: 4
+			id: "71EC42E268D6B5D4"
+			item: {
+				count: 1
+				id: "cobblemon:max_potion"
+			}
+		}
+		{
+			count: 4
+			id: "582C5B36EBEF0E2D"
+			item: {
+				count: 1
+				id: "cobblemon:max_elixir"
+			}
+		}
+		{
+			count: 4
+			id: "7DDD91706270C291"
+			item: {
+				count: 1
+				id: "cobblemon:max_revive"
+			}
+		}
+	]
+}

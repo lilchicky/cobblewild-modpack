@@ -1,0 +1,342 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "emi_loot:textures/gui/chest.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7130BCF49608B32E"
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			count: 8
+			id: "24C0F3A0441FFFCE"
+			item: {
+				count: 1
+				id: "cobblemon:max_potion"
+			}
+		}
+		{
+			count: 8
+			id: "7F685AB50B50661D"
+			item: {
+				count: 1
+				id: "cobblemon:max_elixir"
+			}
+		}
+		{
+			count: 16
+			id: "606ABC6B13A940C8"
+			item: {
+				count: 1
+				id: "cobblemon:rare_candy"
+			}
+		}
+		{
+			id: "53F81E7329ED806D"
+			type: "xp_levels"
+			xp_levels: 100
+		}
+		{
+			count: 2
+			id: "275D8A601AF4B2EF"
+			item: {
+				count: 1
+				id: "a_man_with_plushies:golden_plush_box"
+			}
+		}
+		{
+			count: 16
+			id: "63A3E0BB7447A9B6"
+			item: {
+				count: 1
+				id: "cobblemon:relic_coin_sack"
+			}
+		}
+		{
+			count: 2
+			id: "7C395BB33A477B79"
+			item: {
+				count: 1
+				id: "cobblemon:ability_capsule"
+			}
+		}
+		{ id: "58F02976F5F07A2A", item: { count: 1, id: "cobblemon:ability_patch" } }
+		{
+			count: 4
+			id: "5F0D4A66F7358796"
+			item: {
+				count: 1
+				id: "minecraft:diamond_block"
+			}
+		}
+		{ id: "7CB1F2967883686A", item: { count: 1, id: "minecraft:netherite_ingot" } }
+		{ id: "2628F776B7D28D59", item: { count: 1, id: "armory_rpgs:conqueror_upgrade_crystal" } }
+		{ id: "6F8852695D0E3086", item: { count: 1, id: "armory_rpgs:vanquisher_upgrade_crystal" } }
+		{ id: "25080034D007CE42", item: { count: 1, id: "armory_rpgs:redeemer_upgrade_crystal" } }
+		{ id: "46C289D3D842B0FC", item: { count: 1, id: "armory_rpgs:champion_upgrade_crystal" } }
+		{ id: "5F26F1EF0EDB39C0", item: { count: 1, id: "armory_rpgs:conqueror_forgotten_upgrade_crystal" } }
+		{ id: "4FD0ED7512815BEC", item: { count: 1, id: "armory_rpgs:vanquisher_forgotten_upgrade_crystal" } }
+		{ id: "1140960FAA2463D5", item: { count: 1, id: "armory_rpgs:redeemer_forgotten_upgrade_crystal" } }
+		{ id: "3F9C9AD7F3942DFD", item: { count: 1, id: "armory_rpgs:champion_forgotten_upgrade_crystal" } }
+		{
+			count: 2
+			id: "4D65BCCA0916403F"
+			item: {
+				count: 1
+				id: "minecraft:enchanted_golden_apple"
+			}
+		}
+		{ id: "6A784F246E8938B4", item: { count: 1, id: "cobblemon:master_ball" } }
+		{
+			command: "/pokeedit 1 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "195D9FDFD4AFFB6D"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/pokeedit 2 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1B732398088CC84B"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/pokeedit 3 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "404F5EDF9453063F"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/pokeedit 4 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3EC9E14FF89E5E76"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/pokeedit 5 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4C594F1D2ADF9A82"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			command: "/pokeedit 6 shiny=true"
+			icon: {
+				components: {
+					"ftbquests:icon": "cobblemon:textures/gui/summary/icon_shiny.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1554CB0C7BBD20F8"
+			permission_level: 2
+			type: "command"
+		}
+		{
+			count: 4
+			id: "0DB92BC32DAE9911"
+			item: {
+				count: 1
+				id: "cobblemon:exp_candy_xl"
+			}
+		}
+		{ id: "0604BB4697F8DFF0", item: { count: 1, id: "cobblemonarmory:cobblemon_smithing_upgrade" } }
+		{ id: "6E1267222E4119A9", item: { count: 1, id: "simplyswords:runic_tablet" } }
+		{
+			count: 8
+			id: "40B1F8262F3B2594"
+			item: {
+				count: 1
+				id: "mega_showdown:max_mushroom"
+			}
+		}
+		{ id: "0CC2094E6907BCBA", item: { count: 1, id: "mega_showdown:blank_z" } }
+		{
+			count: 10
+			id: "307116CDCA1B7451"
+			item: {
+				count: 1
+				id: "mega_showdown:normal_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "7EAD66102031482A"
+			item: {
+				count: 1
+				id: "mega_showdown:fire_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "33E3EF91335BA00A"
+			item: {
+				count: 1
+				id: "mega_showdown:water_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "4DDB6E363D6F6202"
+			item: {
+				count: 1
+				id: "mega_showdown:electric_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "5F99CCFBC8E0FF75"
+			item: {
+				count: 1
+				id: "mega_showdown:grass_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "1BDEDA9726D9A7AE"
+			item: {
+				count: 1
+				id: "mega_showdown:ice_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "3542C470BBDE781F"
+			item: {
+				count: 1
+				id: "mega_showdown:fighting_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "569F64B522A39A6C"
+			item: {
+				count: 1
+				id: "mega_showdown:poison_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "0E1901F4170A74E6"
+			item: {
+				count: 1
+				id: "mega_showdown:ground_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "6B312EFF0947BE14"
+			item: {
+				count: 1
+				id: "mega_showdown:flying_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "7B1E41DB6DF1EE0A"
+			item: {
+				count: 1
+				id: "mega_showdown:psychic_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "71C74F339C29ABF7"
+			item: {
+				count: 1
+				id: "mega_showdown:bug_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "0CB1B569955224CB"
+			item: {
+				count: 1
+				id: "mega_showdown:rock_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "18F617E07D7B80AF"
+			item: {
+				count: 1
+				id: "mega_showdown:ghost_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "32397973407C13DB"
+			item: {
+				count: 1
+				id: "mega_showdown:dragon_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "66A90A279B36139F"
+			item: {
+				count: 1
+				id: "mega_showdown:dark_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "5F81BC2338812B1D"
+			item: {
+				count: 1
+				id: "mega_showdown:steel_tera_shard"
+			}
+		}
+		{
+			count: 10
+			id: "1C7116BDF0F20676"
+			item: {
+				count: 1
+				id: "mega_showdown:fairy_tera_shard"
+			}
+		}
+		{
+			count: 5
+			id: "43B6B8CE8FACD6A7"
+			item: {
+				count: 1
+				id: "mega_showdown:stellar_tera_shard"
+			}
+		}
+		{ id: "7D8D9938BDE7101F", item: { components: { "cobblemon:tm_move": { move: "terablast" } }, count: 1, id: "cobblemon:technical_machine" } }
+		{ id: "689817176A03D51F", item: { count: 1, id: "mrpg_lib:ascetic_upgrade_crystal" } }
+		{ id: "0B5C140D8E3C1B54", item: { count: 1, id: "mrpg_lib:warden_upgrade_crystal" } }
+		{ id: "10135323E88A25E5", item: { count: 1, id: "mrpg_lib:ravager_upgrade_crystal" } }
+		{ id: "5FB036108CCA1FEA", item: { count: 1, id: "mrpg_lib:general_upgrade_crystal" } }
+		{ id: "6F649AC8A2CFF05F", item: { count: 1, id: "mrpg_lib:virtuoso_upgrade_crystal" } }
+	]
+}

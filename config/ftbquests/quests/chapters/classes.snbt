@@ -1,0 +1,2832 @@
+{
+	autofocus_id: "4DADA5C7AB7C1F9D"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "classes"
+	group: "23D637B0D867CAAB"
+	icon: {
+		id: "spell_engine:spell_binding"
+	}
+	id: "7BF2EE7D564D6150"
+	images: [
+		{
+			height: 5.0d
+			id: "4ADDAC8465E3C690"
+			image: "legendarymonuments:item/distortion_portal"
+			rotation: 0.0d
+			width: 5.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "4EB708CCAEEC0927"
+			image: "handcrafted:item/hammer"
+			rotation: 45.0d
+			width: 2.0d
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "6D76B790374F905D"
+			image: "simplyswords:item/lichblade"
+			rotation: 135.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.25d
+			id: "41C30A0BC4417B25"
+			image: "lne_archers:item/bow_pulling/ender_dragon_long_bow_pulling_2"
+			rotation: -45.0d
+			width: 2.25d
+			x: -7.0d
+			y: 0.0d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "14F4739F361F74FA"
+			image: "arsenal:item/unique_staff_damage_3"
+			rotation: -45.0d
+			width: 2.0d
+			x: 0.0d
+			y: -6.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.25d
+			id: "67F01EDD3ED5D565"
+			image: "bards_rpg:item/bow_pulling/unique_harp_crossbow_1_pulling_0"
+			rotation: 90.0d
+			width: 2.25d
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "5FC867189341B500"
+			image: "elemental_wizards_rpg:item/weapons/staves/staff_netherite_aqua"
+			rotation: -90.0d
+			width: 2.0d
+			x: -5.5d
+			y: -3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.25d
+			id: "6DCB569ABB5A433D"
+			image: "lne_archers:item/bow_pulling/wither_heavy_crossbow_pulling_1"
+			rotation: -90.0d
+			width: 2.25d
+			x: -5.5d
+			y: 3.5d
+		}
+		{
+			click_action: "none:"
+			height: 2.0d
+			id: "151028C0076C7055"
+			image: "simplyswords:item/chompolotl_sheet"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.5d
+			y: 3.5d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "spell_engine:spell_binding"
+			}
+			id: "4DADA5C7AB7C1F9D"
+			rewards: [
+				{
+					count: 7
+					id: "7065EA5E01A340BC"
+					item: {
+						count: 1
+						id: "minecraft:bookshelf"
+					}
+					type: "item"
+				}
+				{
+					count: 6
+					id: "46483E26C87E7371"
+					item: {
+						count: 1
+						id: "minecraft:lapis_lazuli"
+					}
+					type: "item"
+				}
+				{
+					id: "37DDC838DFB2D5E0"
+					type: "xp_levels"
+					xp_levels: 20
+				}
+			]
+			shape: "octagon"
+			size: 2.0d
+			tasks: [{
+				advancement: "rpg_series:classes"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1040CC215153F407"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5B13913C079A277E"
+			rewards: [
+				{
+					count: 64
+					id: "1894CB8B7EFE332F"
+					item: {
+						count: 1
+						id: "runes:frost_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "72B717BE924500F9"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_frost"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6C39899B392F01AC"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2216164E54C6249A"
+			rewards: [
+				{
+					count: 64
+					id: "34A7F4E663923A6B"
+					item: {
+						count: 1
+						id: "runes:fire_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "7B7CA0F96FB30DD3"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_fire"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1440B0993804909E"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "02BD9745AFE146A4"
+			rewards: [
+				{
+					count: 64
+					id: "4B54FF614A46F4F3"
+					item: {
+						count: 1
+						id: "runes:arcane_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "11A59EE4B93791C0"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_arcane"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "61E67AB312C56B14"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4A10FFECDC573B71"
+			rewards: [
+				{
+					count: 64
+					id: "1571B909C288C0AE"
+					item: {
+						count: 1
+						id: "runes:healing_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "6053EDCF847EEFBF"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_priest"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "06DEA7FD51BBD60E"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5DD4F2D283441D5E"
+			rewards: [
+				{
+					count: 64
+					id: "3EA8EB63D45F3B62"
+					item: {
+						count: 1
+						id: "runes:healing_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "3819DA4DC5F3AC0F"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_paladin"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "64EE952E7091FA3D"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: 1.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7E42E0A049ADA195"
+			rewards: [
+				{
+					count: 64
+					id: "0165D227B4600E7F"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "5053D087076B42ED"
+					item: {
+						count: 1
+						id: "archers:small_quiver"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_archer"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5BDE975485C4E366"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "34D67691DD08E03D"
+			rewards: [
+				{
+					id: "08F2A17402258527"
+					item: {
+						count: 1
+						id: "rogues:diamond_dagger"
+					}
+					type: "item"
+				}
+				{
+					id: "4FBD76E47898EFB6"
+					item: {
+						count: 1
+						id: "artifacts:scarf_of_invisibility"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_rogue"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "46AFEA359B1F060D"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: 4.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5C2F8A7376145C47"
+			rewards: [
+				{
+					count: 8
+					id: "71CF8D3FD6ECB1DC"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "5A7B54835873D1B3"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_strength"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:path_choose_warrior"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "68DC42EAC58DB350"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["5B13913C079A277E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5B62C0A9AE6A0A3C"
+			rewards: [{
+				count: 64
+				id: "00D0506BDB9681EB"
+				item: {
+					count: 1
+					id: "runes:frost_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_frost_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "32DE843FDB33084D"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["5B62C0A9AE6A0A3C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "74ADC0C952D4D7C8"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "501614F6D2F458D5"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_frost"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "533BEB2F724E9D5F"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2216164E54C6249A"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5CE2AB132C9E1154"
+			rewards: [{
+				count: 64
+				id: "717DFB4A55CCA979"
+				item: {
+					count: 1
+					id: "runes:fire_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_fire_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5E4120280B97DC78"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["02BD9745AFE146A4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "270460BC9928535D"
+			rewards: [{
+				count: 64
+				id: "0216DBD20AFF9B3B"
+				item: {
+					count: 1
+					id: "runes:arcane_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_arcane_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "66B3C779C6CC2C11"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["4A10FFECDC573B71"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1850E88B6F5598DC"
+			rewards: [{
+				count: 64
+				id: "5862F0E3C62862CD"
+				item: {
+					count: 1
+					id: "runes:healing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_priest_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "06BBD3F7BC5835F9"
+				type: "advancement"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5DD4F2D283441D5E"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "044FAD4B914585E0"
+			rewards: [{
+				count: 64
+				id: "44DE0DA4E10F24DB"
+				item: {
+					count: 1
+					id: "runes:healing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_paladin_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "1BDB7A0815E5106E"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7E42E0A049ADA195"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7393E02AD9ED4DA2"
+			rewards: [{
+				count: 64
+				id: "3DF0E8B747EB964B"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:long_weakness"
+						}
+					}
+					count: 1
+					id: "minecraft:tipped_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_archer_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4879FF65031A872C"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["34D67691DD08E03D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "16CC68A291F001D4"
+			rewards: [
+				{
+					count: 4
+					id: "0E9A5D2A97257E20"
+					item: {
+						components: {
+							"ftbquests:missing_item": "loot_n_explore:dettlaffs_blood"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0444EA4CFC07D36E"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:long_swiftness"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_rogue_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4BFF08066A20A760"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["5C2F8A7376145C47"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "24532584AC362566"
+			rewards: [
+				{
+					count: 16
+					id: "6087F8462948FC89"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					id: "34F1152C73BD6E55"
+					item: {
+						components: {
+							"ftbquests:missing_item": "loot_n_explore:the_unshakable"
+						}
+						count: 1
+						id: "ftbquests:missing_item"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "rpg_series:spell_cast_warrior_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0BB61D5F37F8CE77"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["270460BC9928535D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1AE0F77C611E7F8C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "1BA1CB98EFA2D7AA"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_arcane"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "343FA4DEA713D8D2"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["16CC68A291F001D4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "07EE372A71A823DD"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "314078DFEE9E5FAF"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_rogue"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "42B3F9E1AFEBEF7C"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["044FAD4B914585E0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "29145A3E263CCD93"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7E5AAE6D8629E9C3"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_paladin"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5EDC8B1E2A630AC0"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["1850E88B6F5598DC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "246A0C52E59DE20E"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "70E2F2286132EC67"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_priest"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6C853D719D8D320A"
+				type: "advancement"
+			}]
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["24532584AC362566"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "2A452231BA3593CB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B6A9934FCBEC666"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_warrior"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "07C0617C85B0166A"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5CE2AB132C9E1154"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0354505664459B7B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "02E8F14B6513A64C"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_fire"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "35899BD10E53BACB"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["7393E02AD9ED4DA2"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "37DE14791D9D7BBB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "703BB05DA1A05C7C"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "rpg_series:spell_master_archer"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "61A5F65E5AF3533A"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: 0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4A2DA1F980E153E3"
+			rewards: [
+				{
+					count: 64
+					id: "63EB61875A04F130"
+					item: {
+						count: 1
+						id: "mrpg_lib:aqua_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "69FC4992CC3CFE03"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "mrpg_lib:water_rune"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "53064B7D1598EF41"
+				type: "advancement"
+			}]
+			x: 0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4A2DA1F980E153E3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "58AD11D31CAC8FB3"
+			rewards: [{
+				count: 64
+				id: "1D277E1B7DCCB40A"
+				item: {
+					count: 1
+					id: "mrpg_lib:aqua_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_cast_aqua_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7115329FEFD81C5C"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["58AD11D31CAC8FB3"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "5CA9BABA18EBB1A3"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "6B8D529396A8141D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_master_aqua"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0A6C78C23BEE6BBB"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: -5.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "13438DD6DE653760"
+			rewards: [
+				{
+					id: "276D8A00F7FEF052"
+					item: {
+						count: 1
+						id: "artifacts:steadfast_spikes"
+					}
+					type: "item"
+				}
+				{
+					count: 4
+					id: "7409D22C4F72442B"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_regeneration"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "forcemaster_rpg:path_choose_forcemaster"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "53D0BDD36EBA46EB"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["13438DD6DE653760"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "53A85BB6193CC0DC"
+			tasks: [{
+				advancement: "forcemaster_rpg:spell_cast_forcemaster_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0984C26493353F8E"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["53A85BB6193CC0DC"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0374AD8668724827"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3DA3192DAA57DFCF"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "forcemaster_rpg:spell_master_forcemaster"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3104E8324D077B1F"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: 4.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "58C35C1DAA129BC8"
+			rewards: [
+				{
+					count: 64
+					id: "7F62F2D4D196B23C"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "5BE747D1C5BFAC2F"
+					item: {
+						count: 1
+						id: "archers:small_quiver"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "archers_expansion:path_choose_deadeye"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0F5205F5F2A62A80"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["58C35C1DAA129BC8"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "01DBF10295598701"
+			rewards: [{
+				count: 64
+				id: "65B71693EEAE0D54"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_harming"
+						}
+					}
+					count: 1
+					id: "minecraft:tipped_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_cast_deadeye_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6DDD1C19B8BD0D59"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["01DBF10295598701"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0450C9AC9014E62C"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4731B484AD5AF63E"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_master_deadeye"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "4EA377761B620DAE"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "02FD05DD4AA97B3C"
+			rewards: [
+				{
+					count: 16
+					id: "3264B9C2989A7D64"
+					item: {
+						count: 1
+						id: "minecraft:rabbit_hide"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "0179E2A4986CF818"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "bards_rpg:path_choose_bard"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "7B687F82C62D5B62"
+				type: "advancement"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["02FD05DD4AA97B3C"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "17F4F17F33765986"
+			rewards: [{
+				count: 4
+				id: "04293C580C52E545"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "bards_rpg:spell_cast_bard_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5D6DC6ED7E60EBF9"
+				type: "advancement"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["17F4F17F33765986"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1965B85190385D08"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4E12368F1173022C"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "bards_rpg:spell_master_bard"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "39DCB48083E8F210"
+				type: "advancement"
+			}]
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0C8DA246C1F9F7AE"
+			rewards: [
+				{
+					count: 64
+					id: "3019E2F6229DF094"
+					item: {
+						count: 1
+						id: "mrpg_lib:storm_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "47D901507299E296"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:path_choose_wind"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D7E6B90D92C7931"
+				type: "advancement"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0C8DA246C1F9F7AE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7B3881D215759066"
+			rewards: [{
+				count: 64
+				id: "47C53555E52C718A"
+				item: {
+					count: 1
+					id: "mrpg_lib:storm_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_cast_wind_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "098393BECBD30A25"
+				type: "advancement"
+			}]
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["7B3881D215759066"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0280892100CCD35D"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2B17CCC26834B4A5"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_master_wind"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "36F176BC8A87ED1E"
+				type: "advancement"
+			}]
+			x: 3.0d
+			y: -4.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "0B6D238CF0BEC065"
+			rewards: [
+				{
+					count: 64
+					id: "59149504E1083604"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "2A713E3BA42C47FD"
+					item: {
+						count: 1
+						id: "archers:small_quiver"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "archers_expansion:path_choose_war_archer"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "257881EF8040ECEF"
+				type: "advancement"
+			}]
+			x: -4.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0B6D238CF0BEC065"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "4A8C03AA6F2CD5FE"
+			rewards: [{
+				count: 64
+				id: "64F8CC1CB3A7ED90"
+				item: {
+					count: 1
+					id: "supplementaries:rope_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_cast_war_archer_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "56D035521C077D5F"
+				type: "advancement"
+			}]
+			x: -5.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["4A8C03AA6F2CD5FE"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "34213FF1773E66A1"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2E114578D0C8F323"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_master_war_archer"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5E02E9D808CB1B2E"
+				type: "advancement"
+			}]
+			x: -6.0d
+			y: 1.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "25C7F901BD2E2FAF"
+			rewards: [
+				{
+					count: 64
+					id: "1D34B1AC54A7F92E"
+					item: {
+						count: 1
+						id: "minecraft:arrow"
+					}
+					type: "item"
+				}
+				{
+					id: "0616AC0C1F8F7825"
+					item: {
+						count: 1
+						id: "archers:small_quiver"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "archers_expansion:path_choose_tundra_hunter"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0ED611D75F40CC2F"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["25C7F901BD2E2FAF"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "23E4C625190A90C1"
+			rewards: [{
+				count: 64
+				id: "3B5B77D8DDF5AACC"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "yungscavebiomes:strong_frost"
+						}
+					}
+					count: 1
+					id: "minecraft:tipped_arrow"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_cast_tundra_hunter_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "46D57863F530BA1F"
+				type: "advancement"
+			}]
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["23E4C625190A90C1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "34571C422FDC418B"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4FAE355AFE3CCA1D"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "archers_expansion:spell_master_tundra_hunter"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "43CC879FCA06C6F7"
+				type: "advancement"
+			}]
+			x: -5.5d
+			y: -0.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "34D84D8FE946D5F9"
+			rewards: [
+				{
+					count: 64
+					id: "65E46E385B37CA89"
+					item: {
+						count: 1
+						id: "mrpg_lib:terra_stone"
+					}
+					type: "item"
+				}
+				{
+					id: "093205D930933EEE"
+					item: {
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:path_choose_terra"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "23659F8469EF6702"
+				type: "advancement"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["34D84D8FE946D5F9"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "26023F4DDF04E2A7"
+			rewards: [{
+				count: 64
+				id: "6B11098867FBD696"
+				item: {
+					count: 1
+					id: "mrpg_lib:terra_stone"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_cast_terra_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2C6D1B46C0D16792"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["26023F4DDF04E2A7"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "34149EAEC2808378"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "466877401464E998"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "elemental_wizards_rpg:spell_master_terra"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "2C2A324CDCE5A1BE"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: -5.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "44E97FD5EB6504D1"
+			rewards: [
+				{
+					count: 6
+					id: "4F482A289EE3FEE9"
+					item: {
+						components: {
+							"minecraft:potion_contents": {
+								potion: "minecraft:strong_swiftness"
+							}
+						}
+						count: 1
+						id: "minecraft:potion"
+					}
+					type: "item"
+				}
+				{
+					count: 32
+					id: "07F7474635BACEED"
+					item: {
+						count: 1
+						id: "mrpg_lib:wolf_fur"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "berserker_rpg:path_choose_berserker"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "15F871E64096B944"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["44E97FD5EB6504D1"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3A48BBC5C033CF39"
+			rewards: [{
+				count: 32
+				id: "2780401172EC78F0"
+				item: {
+					count: 1
+					id: "mrpg_lib:polar_bear_fur"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "berserker_rpg:spell_cast_berserker_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "3B011FE75B2DCB27"
+				type: "advancement"
+			}]
+			x: -2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["3A48BBC5C033CF39"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "7DF7868C4132B7E5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "26ABC68FB90B974B"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "berserker_rpg:spell_master_berserker"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0B2C45F2CE8F877E"
+				type: "advancement"
+			}]
+			x: -3.5d
+			y: 3.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "1EBE72079B45A2E4"
+			rewards: [
+				{
+					count: 8
+					id: "6FE65627F429BE0C"
+					item: {
+						count: 1
+						id: "minecraft:golden_apple"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "3F842687D094CA4A"
+					item: {
+						count: 1
+						id: "minecraft:cooked_beef"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "witcher_rpg:path_choose_signs"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "464337A35B6CD2D8"
+				type: "advancement"
+			}]
+			x: 1.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1EBE72079B45A2E4"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "04BDCE5488319308"
+			rewards: [{
+				count: 4
+				id: "2457EF20341C8CA2"
+				item: {
+					count: 1
+					id: "minecraft:enchanted_golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "witcher_rpg:spell_cast_signs_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6E7636BF1046B75C"
+				type: "advancement"
+			}]
+			x: 2.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["04BDCE5488319308"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "70B00F6AFFC40BEB"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "65A95DE890313389"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "witcher_rpg:spell_master_signs"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5FC3B5207E56893F"
+				type: "advancement"
+			}]
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "57C2416EE1F268D0"
+			rewards: [{
+				count: 16
+				id: "4A8B12369714073E"
+				item: {
+					components: {
+						"minecraft:potion_contents": {
+							potion: "minecraft:strong_strength"
+						}
+					}
+					count: 1
+					id: "minecraft:lingering_potion"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "witcher_rpg:path_choose_fencing"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "191EF806A255AED9"
+				type: "advancement"
+			}]
+			x: -1.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["57C2416EE1F268D0"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "3E1F5EFEB6B8BC40"
+			rewards: [
+				{
+					count: 16
+					id: "36C529A5B911CB34"
+					item: {
+						count: 1
+						id: "witcher_rpg:steel_ingot"
+					}
+					type: "item"
+				}
+				{
+					count: 16
+					id: "7F493843F3CA621D"
+					item: {
+						count: 1
+						id: "witcher_rpg:silver_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "witcher_rpg:spell_cast_fencing_book"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "01BEE1848B85F6FC"
+				type: "advancement"
+			}]
+			x: -2.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["3E1F5EFEB6B8BC40"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			id: "335BEB65D791F999"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "3AC75DABC9349BA7"
+				table_id: 8156226683843162926L
+				type: "choice"
+			}]
+			tasks: [{
+				advancement: "witcher_rpg:spell_master_fencing"
+				criterion: ""
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0D65AED4F65BC62E"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["4DADA5C7AB7C1F9D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"minecraft:stored_enchantments": {
+						levels: {
+							"spell_power:sunfire": 5
+						}
+					}
+				}
+				id: "minecraft:enchanted_book"
+			}
+			id: "6022B1164BD3BE5C"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "6F676CBD93FDED7A"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4DADA5C7AB7C1F9D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:netherite_sword"
+			}
+			id: "13BC8B0F58E93694"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "505162C7177F6381"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4DADA5C7AB7C1F9D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				components: {
+					"minecraft:potion_contents": {
+						potion: "minecraft:healing"
+					}
+				}
+				id: "minecraft:potion"
+			}
+			id: "2C43CD4CFC059039"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "0B4DC2F52C8A7B15"
+				type: "checkmark"
+			}]
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4DADA5C7AB7C1F9D"]
+			extraquests_calendar: {
+				active_quests: 3
+				enabled: 0b
+				pool: ""
+				reset_time: "06:00"
+				timezone: "UTC"
+				weekday: 1
+				weekly: 0b
+			}
+			icon: {
+				id: "minecraft:bow"
+			}
+			id: "2F2473BD4ED940C1"
+			shape: "diamond"
+			size: 2.0d
+			tasks: [{
+				extraquests_options: {
+					aggregation: "AUTO"
+					duration: 600L
+					minimum_contribution: 0L
+					reset_damage: 0b
+					reset_death: 1b
+					reset_logout: 0b
+					shared: 0b
+					timer_enabled: 0b
+					timer_start: "FIRST_PROGRESS"
+				}
+				id: "5EA6061901D7FC06"
+				type: "checkmark"
+			}]
+			x: -2.0d
+			y: 0.0d
+		}
+	]
+}
