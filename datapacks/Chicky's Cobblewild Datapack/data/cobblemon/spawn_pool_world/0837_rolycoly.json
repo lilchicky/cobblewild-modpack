@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "rolycoly-otherside",
+            "pokemon": "rolycoly",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-70",
+            "weight": 0.5,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

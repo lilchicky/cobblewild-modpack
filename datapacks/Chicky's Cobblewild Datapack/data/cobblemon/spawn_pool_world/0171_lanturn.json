@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lanturn-otherside",
+            "pokemon": "lanturn",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "uncommon",
+            "level": "20-80",
+            "weight": 0.7,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-otherside-rare",
+            "pokemon": "lanturn",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "context": "surface",
+            "bucket": "rare",
+            "level": "30-90",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        },
+        {
+            "id": "lanturn-otherside-fishing",
+            "pokemon": "lanturn",
+            "type": "pokemon",
+            "context": "fishing",
+            "bucket": "uncommon",
+            "level": "20-80",
+            "weight": 1,
+            "weightMultipliers": [
+                {
+                    "multiplier": 2.0,
+                    "condition": {
+                        "minLureLevel": 1,
+                        "maxLureLevel": 1
+                    }
+                },
+                {
+                    "multiplier": 3.0,
+                    "condition": {
+                        "minLureLevel": 2,
+                        "maxLureLevel": 2
+                    }
+                },
+                {
+                    "multiplier": 4.0,
+                    "condition": {
+                        "minLureLevel": 3
+                    }
+                }
+            ],
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

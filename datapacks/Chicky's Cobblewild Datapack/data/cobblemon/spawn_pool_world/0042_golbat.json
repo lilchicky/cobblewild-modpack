@@ -1,0 +1,27 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "golbat-otherside",
+            "pokemon": "golbat",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-80",
+            "weight": 0.8,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:blooming_caverns",
+                    "deeperdarker:deeplands",
+                    "deeperdarker:echoing_forest",
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "roggenrola-otherside",
+            "pokemon": "roggenrola",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "common",
+            "level": "10-70",
+            "weight": 0.4,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        },
+        {
+            "id": "roggenrola-otherside-uncommon",
+            "pokemon": "roggenrola",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "uncommon",
+            "level": "20-80",
+            "weight": 0.9,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:overcast_columns"
+                ]
+            }
+        }
+    ]
+}

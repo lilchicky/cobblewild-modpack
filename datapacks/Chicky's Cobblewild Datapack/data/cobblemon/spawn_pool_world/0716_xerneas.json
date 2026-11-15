@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "xerneas-otherside",
+            "pokemon": "xerneas",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "ultra-rare",
+            "level": "90-100",
+            "weight": 0.1,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

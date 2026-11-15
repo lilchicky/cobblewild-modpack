@@ -1,0 +1,24 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lunatone-otherside",
+            "pokemon": "lunatone",
+            "presets": [
+                "otherside"
+            ],
+            "type": "pokemon",
+            "context": "grounded",
+            "bucket": "rare",
+            "level": "30-90",
+            "weight": 1,
+            "condition": {
+                "biomes": [
+                    "deeperdarker:echoing_forest"
+                ]
+            }
+        }
+    ]
+}

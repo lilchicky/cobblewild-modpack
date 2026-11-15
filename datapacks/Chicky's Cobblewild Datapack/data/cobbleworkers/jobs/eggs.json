@@ -1,0 +1,22 @@
+{
+  "id": "eggs",
+  "cooldown": "240",
+  "cooldown_scope": "PER_ENTITY",
+  "requirements": {
+    "species": [
+      "exeggcute",
+      "exeggutor",
+      "chansey",
+      "blissey"
+    ]
+  },
+  "components": [
+    {
+      "type": "cobbleworkers:loot_generation",
+      "context": "STATIC_TABLE",
+      "loot_tables": [
+        "cobblewild:eggs"
+      ]
+    }
+  ]
+}

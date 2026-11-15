@@ -1,0 +1,133 @@
+{
+  "type": "minecraft:entity",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xs",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_s",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "dynamic_difficulty:entity_level",
+          "min": 10,
+          "max": 19
+        }
+      ]
+    },
+
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_s",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_m",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "dynamic_difficulty:entity_level",
+          "min": 20,
+          "max": 39
+        }
+      ]
+    },
+
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_m",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_l",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "dynamic_difficulty:entity_level",
+          "min": 40,
+          "max": 59
+        }
+      ]
+    },
+
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_l",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "dynamic_difficulty:entity_level",
+          "min": 60,
+          "max": 79
+        }
+      ]
+    },
+
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:exp_candy_xl",
+          "weight": 9
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cobblemon:rare_candy",
+          "weight": 1
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "dynamic_difficulty:entity_level",
+          "min": 80
+        }
+      ]
+    }
+  ]
+}

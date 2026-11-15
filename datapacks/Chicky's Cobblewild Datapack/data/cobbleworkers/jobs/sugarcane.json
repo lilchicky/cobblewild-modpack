@@ -1,0 +1,29 @@
+{
+  "id": "sugarcane",
+  "enabled": true,
+  "cooldown": "240",
+  "cooldown_scope": "PER_ENTITY",
+  "requirements": {
+    "species": [
+      "slurpuff",
+      "swirlix",
+      "milcery",
+      "alcremie"
+    ]
+  },
+  "components": [
+    {
+      "type": "cobbleworkers:navigation",
+      "target": {
+        "block": "minecraft:sugar_cane"
+      }
+    },
+    {
+      "type": "cobbleworkers:loot_generation",
+      "context": "STATIC_TABLE",
+      "loot_tables": [
+        "cobblewild:sugarcane"
+      ]
+    }
+  ]
+}

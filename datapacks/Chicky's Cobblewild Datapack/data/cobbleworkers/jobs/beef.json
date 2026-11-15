@@ -1,0 +1,21 @@
+{
+  "id": "beef",
+  "cooldown": "240",
+  "cooldown_scope": "PER_ENTITY",
+  "requirements": {
+    "species": [
+      "miltank",
+      "bouffalant",
+      "tauros"
+    ]
+  },
+  "components": [
+    {
+      "type": "cobbleworkers:loot_generation",
+      "context": "STATIC_TABLE",
+      "loot_tables": [
+        "minecraft:entities/cow"
+      ]
+    }
+  ]
+}
