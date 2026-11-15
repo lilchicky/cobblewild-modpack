@@ -1,0 +1,20 @@
+{
+  "elements": [
+    "cataclysm:cursed_bow",
+    "cataclysm:wrath_of_the_desert",
+    "cataclysm:laser_gatling",
+    "cataclysm:wither_assault_shoulder_weapon",
+    "cataclysm:void_assault_shoulder_weapon"
+  ],
+  "patch": {
+    "spell_engine:spell_container": {
+      "access": "ARCHERY",
+      "access_param": "",
+      "pool": "",
+      "slot": "mainhand",
+      "max_spell_count": 0,
+      "spell_ids": [],
+      "extra_tier_binding": 0
+    }
+  }
+}

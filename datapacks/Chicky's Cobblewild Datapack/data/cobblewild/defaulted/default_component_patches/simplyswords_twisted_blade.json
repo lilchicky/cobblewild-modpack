@@ -1,0 +1,22 @@
+{
+  "elements": [
+    "simplyswords:twisted_blade"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "mrpg_lib:rage_modifier",
+            "id": "cobblewild:rage_modifier",
+            "amount": 0.025,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

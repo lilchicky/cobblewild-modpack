@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "simplyswords:livyatan"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:air",
+            "id": "cobblewild:air",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:water",
+            "id": "cobblewild:water",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:haste",
+            "id": "cobblewild:haste",
+            "amount": 0.03,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

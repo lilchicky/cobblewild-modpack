@@ -1,0 +1,14 @@
+{
+  "elements": [
+    "cobblemonarmory:starmie_sword"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": []
+      },
+      "to_remove": []
+    }
+  ]
+}

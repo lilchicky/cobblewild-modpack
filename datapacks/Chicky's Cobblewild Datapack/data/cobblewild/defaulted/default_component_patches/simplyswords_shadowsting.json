@@ -1,0 +1,22 @@
+{
+  "elements": [
+    "simplyswords:shadowsting"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_engine:evasion_chance",
+            "id": "cobblewild:evasion_chance",
+            "amount": 0.075,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

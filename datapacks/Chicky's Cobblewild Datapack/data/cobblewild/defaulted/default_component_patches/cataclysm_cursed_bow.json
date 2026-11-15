@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "cataclysm:cursed_bow"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "ranged_weapon:pull_time",
+            "id": "cobblewild:pull_time",
+            "amount": -0.1,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "ranged_weapon:velocity",
+            "id": "cobblewild:velocity",
+            "amount": 1.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "ranged_weapon:damage",
+            "id": "cobblewild:damage",
+            "amount": 11,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

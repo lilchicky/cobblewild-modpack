@@ -1,0 +1,29 @@
+{
+  "elements": [
+    "simplyswords:soulrender"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_engine:evasion_chance",
+            "id": "cobblewild:evasion_chance",
+            "amount": 0.05,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:frost",
+            "id": "cobblewild:frost",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

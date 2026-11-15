@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "simplyswords:riftmane"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:air",
+            "id": "cobblewild:air",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "mrpg_lib:rage_modifier",
+            "id": "cobblewild:rage_modifier",
+            "amount": 0.025,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:arcane",
+            "id": "cobblewild:arcane",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

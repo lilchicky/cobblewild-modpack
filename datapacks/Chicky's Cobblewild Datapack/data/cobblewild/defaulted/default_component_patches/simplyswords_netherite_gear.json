@@ -1,0 +1,22 @@
+{
+  "elements": [
+    "#simplyswords:netherite_gear"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:fire",
+            "id": "cobblewild:fire",
+            "amount": 3,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "elements": [
+    "simplyswords:watcher_claymore"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:arcane",
+            "id": "cobblewild:arcane",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:frost",
+            "id": "cobblewild:frost",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

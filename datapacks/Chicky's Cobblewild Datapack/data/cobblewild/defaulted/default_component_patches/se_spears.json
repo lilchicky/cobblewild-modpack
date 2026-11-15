@@ -1,0 +1,21 @@
+{
+  "elements": [
+    "cataclysm:coral_spear",
+    "cataclysm:ancient_spear",
+    "simplyswords:sword_on_a_stick",
+    "simplyswords:decaying_relic"
+  ],
+  "patch": {
+    "spell_engine:spell_container": {
+      "access": "MAGIC",
+      "access_param": "",
+      "pool": "",
+      "slot": "mainhand",
+      "max_spell_count": 0,
+      "spell_ids": [
+        "rpg_series:impale"
+      ],
+      "extra_tier_binding": 0
+    }
+  }
+}

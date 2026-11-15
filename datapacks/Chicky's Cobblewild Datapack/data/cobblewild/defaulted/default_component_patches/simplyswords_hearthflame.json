@@ -1,0 +1,43 @@
+{
+  "elements": [
+    "simplyswords:hearthflame"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:fire",
+            "id": "cobblewild:fire",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:critical_damage",
+            "id": "cobblewild:critical_damage",
+            "amount": 0.03,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:healing",
+            "id": "cobblewild:healing",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "mrpg_lib:rage_modifier",
+            "id": "cobblewild:rage_modifier",
+            "amount": 0.025,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

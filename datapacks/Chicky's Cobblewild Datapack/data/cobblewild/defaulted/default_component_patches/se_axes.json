@@ -1,0 +1,18 @@
+{
+  "elements": [
+    "simplyswords:watching_warglaive"
+  ],
+  "patch": {
+    "spell_engine:spell_container": {
+      "access": "MAGIC",
+      "access_param": "",
+      "pool": "",
+      "slot": "mainhand",
+      "max_spell_count": 0,
+      "spell_ids": [
+        "rpg_series:cleave"
+      ],
+      "extra_tier_binding": 0
+    }
+  }
+}

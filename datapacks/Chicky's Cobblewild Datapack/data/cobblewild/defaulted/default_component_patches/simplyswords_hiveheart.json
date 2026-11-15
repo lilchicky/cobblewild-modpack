@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "simplyswords:hiveheart"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:earth",
+            "id": "cobblewild:earth",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:critical_chance",
+            "id": "cobblewild:critical_chance",
+            "amount": 0.15,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:healing",
+            "id": "cobblewild:healing",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

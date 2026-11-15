@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "simplyswords:waxweaver"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:earth",
+            "id": "cobblewild:earth",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:critical_chance",
+            "id": "cobblewild:critical_chance",
+            "amount": 0.15,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "mrpg_lib:rage_modifier",
+            "id": "cobblewild:rage_modifier",
+            "amount": 0.025,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

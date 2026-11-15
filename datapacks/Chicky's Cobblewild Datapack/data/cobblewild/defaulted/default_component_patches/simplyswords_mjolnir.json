@@ -1,0 +1,36 @@
+{
+  "elements": [
+    "simplyswords:mjolnir"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:air",
+            "id": "cobblewild:air",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:fire",
+            "id": "cobblewild:fire",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:healing",
+            "id": "cobblewild:healing",
+            "amount": 5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

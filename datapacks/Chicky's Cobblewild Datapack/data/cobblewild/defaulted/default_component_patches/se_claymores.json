@@ -1,0 +1,20 @@
+{
+  "elements": [
+    "cobblemonarmory:zacian_sword",
+    "simplyswords:slumbering_lichblade",
+    "simplyswords:waxweaver"
+  ],
+  "patch": {
+    "spell_engine:spell_container": {
+      "access": "MAGIC",
+      "access_param": "",
+      "pool": "",
+      "slot": "mainhand",
+      "max_spell_count": 0,
+      "spell_ids": [
+        "rpg_series:flurry"
+      ],
+      "extra_tier_binding": 0
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "elements": [
+    "simplyswords:flamewind"
+  ],
+  "patch_generators": [
+    {
+      "generator": "defaulted:modify_attribute_modifiers",
+      "to_add": {
+        "modifiers": [
+          {
+            "type": "spell_power:fire",
+            "id": "cobblewild:fire",
+            "amount": 6.5,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:critical_damage",
+            "id": "cobblewild:critical_damage",
+            "amount": 0.03,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:earth",
+            "id": "cobblewild:earth",
+            "amount": 8,
+            "operation": "add_value",
+            "slot": "mainhand"
+          },
+          {
+            "type": "spell_power:critical_chance",
+            "id": "cobblewild:critical_chance",
+            "amount": 0.15,
+            "operation": "add_multiplied_base",
+            "slot": "mainhand"
+          }
+        ]
+      },
+      "to_remove": []
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "elements": [
+    "cobblemonarmory:tinkaton_hammer",
+    "cobblemonarmory:metagross_hammer"
+  ],
+  "patch": {
+    "spell_engine:spell_container": {
+      "access": "MAGIC",
+      "access_param": "",
+      "pool": "",
+      "slot": "mainhand",
+      "max_spell_count": 0,
+      "spell_ids": [
+        "rpg_series:ground_slam"
+      ],
+      "extra_tier_binding": 0
+    }
+  }
+}

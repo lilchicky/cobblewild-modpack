@@ -1,0 +1,298 @@
+{
+    "legendarymonuments:titan_hammer": {
+        "hammer": "1",
+        "support": "2"
+    },
+    "cataclysm:gauntlet_of_guard": {
+        "arcane": "3",
+        "fist": "3"
+    },
+    "cataclysm:gauntlet_of_bulwark": {
+        "support": "2",
+        "fist": "3",
+        "fire": "2"
+    },
+    "cataclysm:gauntlet_of_maelstrom": {
+        "arcane": "2",
+        "air": "3",
+        "fist": "3"
+    },
+    "cataclysm:the_incinerator": {
+        "fire": "3",
+        "berserk": "2"
+    },
+    "cataclysm:cursed_bow": {
+        "bow": "3"
+    },
+    "cataclysm:wrath_of_the_desert": {
+        "bow": "4"
+    },
+    "cataclysm:soul_render": {
+        "frost": "4",
+        "air": "2",
+        "rogue": "1"
+    },
+    "cataclysm:the_annihilator": {
+        "support": "3",
+        "warrior": "4"
+    },
+    "cataclysm:the_immolator": {
+        "fire": "4",
+        "support": "2",
+        "warrior": "3"
+    },
+    "cataclysm:meat_shredder": {
+        "berserker": "3",
+        "fire": "3"
+    },
+    "cataclysm:void_forge": {
+        "arcane": "4",
+        "support": "2"
+    },
+    "cataclysm:tidal_claws": {
+        "water": "4",
+        "fist": "2"
+    },
+    "cataclysm:infernal_forge": {
+        "fire": "3",
+        "warrior": "3",
+        "support": "3"
+    },
+    "cataclysm:ancient_spear": {
+        "earth": "4",
+        "air": "2"
+    },
+    "cataclysm:astrape": {
+        "air": "4",
+        "frost": "2"
+    },
+    "cataclysm:ceraunus": {
+        "water": "4",
+        "frost": "3"
+    },
+    "cataclysm:brontes": {
+        "fire": "3",
+        "support": "4",
+        "air": "3"
+    },
+    "#simplyswords:netherite_gear": {
+        "fire": "1"
+    },
+    "#simplyswords:runic_gear": {
+        "arcane": "2",
+        "bard": "1"
+    },
+    "simplyswords:brimstone_claymore": {
+        "fire": "4"
+    },
+    "simplyswords:watcher_claymore": {
+        "arcane": "3",
+        "frost": "3"
+    },
+    "simplyswords:storms_edge": {
+        "air": "4",
+        "fire": "3",
+        "rogue": "1"
+    },
+    "simplyswords:stormscale": {
+        "air": "4",
+        "fire": "3",
+        "support": "2"
+    },
+    "simplyswords:stormbringer": {
+        "berserker": "2",
+        "warrior": "2",
+        "air": "3"
+    },
+    "simplyswords:bramblethorn": {
+        "earth": "4"
+    },
+    "simplyswords:watching_warglaive": {
+        "arcane": "3",
+        "rogue": "3",
+        "witcher": "1"
+    },
+    "simplyswords:toxic_longsword": {
+        "earth": "3",
+        "witcher": "2"
+    },
+    "simplyswords:emberblade": {
+        "fire": "4"
+    },
+    "simplyswords:hearthflame": {
+        "fire": "3",
+        "support": "2",
+        "berserker": "2"
+    },
+    "simplyswords:soulkeeper": {
+        "arcane": "3",
+        "support": "2",
+        "witcher": "2"
+    },
+    "simplyswords:twisted_blade": {
+        "witcher": "4",
+        "berserker": "2"
+    },
+    "simplyswords:soulstealer": {
+        "rogue": "4",
+        "arcane": "2"
+    },
+    "simplyswords:soulrender": {
+        "rogue": "3",
+        "witcher": "2",
+        "frost": "3"
+    },
+    "simplyswords:soulpyre": {
+        "arcane": "4"
+    },
+    "simplyswords:frostfall": {
+        "frost": "4",
+        "support": "2"
+    },
+    "simplyswords:molten_edge": {
+        "fire": "4",
+        "berserker": "3"
+    },
+    "simplyswords:livyatan": {
+        "air": "3",
+        "water": "3"
+    },
+    "simplyswords:icewhisper": {
+        "frost": "4",
+        "warrior": "3"
+    },
+    "simplyswords:arcanethyst": {
+        "arcane": "4"
+    },
+    "simplyswords:thunderbrand": {
+        "air": "4",
+        "fire": "2"
+    },
+    "simplyswords:mjolnir": {
+        "air": "4",
+        "fire": "2",
+        "support": "2"
+    },
+    "simplyswords:shadowsting": {
+        "rogue": "4",
+        "witcher": "2"
+    },
+    "simplyswords:whisperwind": {
+        "rogue": "4",
+        "air": "2"
+    },
+    "simplyswords:emberlash": {
+        "fire": "4",
+        "rogue": "2"
+    },
+    "simplyswords:waxweaver": {
+        "earth": "4",
+        "berserker": "2"
+    },
+    "simplyswords:hiveheart": {
+        "earth": "4",
+        "support": "3"
+    },
+    "simplyswords:stars_edge": {
+        "rogue": "3",
+        "arcane": "3",
+        "air": "1"
+    },
+    "simplyswords:wickpiercer": {
+        "fire": "3",
+        "warrior": "3"
+    },
+    "simplyswords:tempest": {
+        "air": "3",
+        "water": "3",
+        "fire": "3"
+    },
+    "simplyswords:flamewind": {
+        "fire": "3",
+        "earth": "4"
+    },
+    "simplyswords:ribboncleaver": {
+        "berserker": "4",
+        "warrior": "4"
+    },
+    "simplyswords:magiscythe": {
+        "rogue": "4",
+        "air": "3",
+        "arcane": "3"
+    },
+    "simplyswords:enigma": {
+        "warrior": "3",
+        "air": "4"
+    },
+    "simplyswords:magispear": {
+        "air": "3",
+        "arcane": "4"
+    },
+    "simplyswords:magiblade": {
+        "arcane": "4",
+        "rogue": "3"
+    },
+    "simplyswords:caelestis": {
+        "arcane": "4",
+        "rogue": "4"
+    },
+    "simplyswords:dawnquiver": {
+        "fire": "4",
+        "support": "4"
+    },
+    "simplyswords:riftmane": {
+        "air": "3",
+        "berserker": "2",
+        "arcane": "2"
+    },
+    "simplyswords:wraithfang": {
+        "rogue": "4",
+        "air": "2"
+    },
+    "simplyswords:bloodwake": {
+        "rogue": "4",
+        "berserker": "3"
+    },
+    "simplyswords:chompolotl": {
+        "water": "4",
+        "frost": "2"
+    },
+    "#simplycataclysm:ancient_metal_gear": {
+        "earth": "3"
+    },
+    "#simplycataclysm:black_steel_gear": {
+        "witcher": "2",
+        "arcane": "2"
+    },
+    "#simplycataclysm:cursium_gear": {
+        "witcher": "2",
+        "frost": "3"
+    },
+    "#simplycataclysm:ignitium_gear": {
+        "fire": "3"
+    },
+    "#simplycataclysm:witherite_gear": {
+        "berserker": "3"
+    },
+    "cobblemonarmory:tinkaton_hammer": {
+        "support": "2"
+    },
+    "cobblemonarmory:starmie_sword": {
+        "rogue": "1"
+    },
+    "cobblemonarmory:primeape_gloves": {
+        "fist": "2"
+    },
+    "cobblemonarmory:sirfetchd_sword": {
+        "rogue": "1"
+    },
+    "cobblemonarmory:ceruledge_sword": {
+        "fire": "3"
+    },
+    "cobblemonarmory:zacian_sword": {
+        "warrior": "3"
+    },
+    "cobblemonarmory:metagross_hammer": {
+        "support": "3"
+    }
+}
