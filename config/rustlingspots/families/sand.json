@@ -1,0 +1,16 @@
+{
+  "surface_blocks": [
+    "minecraft:sand",
+    "minecraft:red_sand",
+    "minecraft:sandstone",
+    "minecraft:red_sandstone",
+    "yungscavebiomes:ancient_sand",
+    "biomeswevegone:sandy_dirt",
+    "biomeswevegone:black_sand",
+    "biomeswevegone:white_sand",
+    "biomeswevegone:blue_sand",
+    "biomeswevegone:purple_sand",
+    "biomeswevegone:pink_sand",
+    "biomeswevegone:windswept_sand"
+  ]
+}
