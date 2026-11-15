@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#c:ores",
+    "#minecraft:logs",
+    "legendarymonuments:galar_particle_ore",
+    "legendarymonuments:deepslate_galar_particle_ore",
+    "minecraft:mangrove_roots"
+  ]
+}

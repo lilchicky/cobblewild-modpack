@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "spell_power:magic_protection",
+    "nova_structures:antidote"
+  ]
+}
