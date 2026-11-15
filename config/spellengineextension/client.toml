@@ -1,0 +1,23 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+always_hide_details_hint = false
+hide_details_hint_for_invalid_conditional_spell_container = true
+enable_spell_hotbar_background_rendering = true
+enable_spell_hotbar_cooldown_overlay = true
+enable_spell_hotkey_icons = true
+show_items_in_spell_hot_bar = true
+# When enabled, the use key replaces the first 'number slot' on the spell hotbar.
+should_spell_hotbar_use_key_replace_first_number_slot = true
+disable_use_key_spell_hotbar_slot_rendering = false
+enable_cooldown_icons = false
+enable_spell_hotbar_cooldown_number = true
+spell_cooldown_number_offset_x = 8
+spell_cooldown_number_offset_y = 5
+
+[spell_cooldown_number_color]
+# Red component, 0 to 255
+r = 192
+# Green component, 0 to 255
+g = 192
+# Blue component, 0 to 255
+b = 192
