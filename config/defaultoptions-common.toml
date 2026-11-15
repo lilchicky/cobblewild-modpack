@@ -1,0 +1,7 @@
+#The default difficulty selected for newly created worlds.
+#Allowed Values: PEACEFUL, EASY, NORMAL, HARD
+defaultDifficulty = "HARD"
+#Set to true if the difficulty for new world's should be locked to the specific default. This cannot be unlocked by players without external tools! Probably a bad idea. I don't recommend. Why am I adding this option?
+lockDifficulty = false
+#Resource pack IDs to have enabled by default on the first run.
+defaultResourcePacks = ["vanilla", "fabric", "generated/fragmentum_layer", "mod_resources", "-1.21.2 Fresh Moves v3.1 (With Animated Eyes).zip", "ATM x MSD [v3.6.1].zip", "Chicky's Cobblewild Resources.zip", "Cobblemon 3D Poké Rods 1.0.zip", "E19 Cobblemon Minimap Icons.zip", "Fresh AI Tweaks 1.21.1.zip", "FreshAnimations_v1.10.1.zip", "RCT Trainers+ [1.6] v2.1.zip", "emissive-cobblemon-ores.zip", "golems-refreshed-fa-v2.1.zip", "moogs_icon_fix.zip", "moonlight:merged_pack"]

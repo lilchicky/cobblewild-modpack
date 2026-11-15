@@ -1,0 +1,2 @@
+#Advancement requirements for each dimension (format: dimension=[adv1,adv2,...])
+dimensionRequirements = ["minecraft:the_nether=[minecraft:story/enter_the_nether]", "minecraft:the_end=[minecraft:story/enter_the_end]", "deeperdarker:otherside=[deeperdarker:main/enter_otherside]"]
