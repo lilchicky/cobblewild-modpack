@@ -1,0 +1,14 @@
+[
+  {
+    "item": "minecraft:emerald",
+    "price": "50"
+  },
+  {
+    "item": "cobblemon:relic_coin",
+    "price": "50"
+  },
+  {
+    "item": "cobblemon:relic_coin_pouch",
+    "price": "450"
+  }
+]
